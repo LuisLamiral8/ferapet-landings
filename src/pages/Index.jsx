@@ -37,7 +37,10 @@ const Index = ({ lang }) => {
   return (
     <main className={styles.container}>
       <Loader loader={loader}></Loader>
-      <header className={styles.header}>
+      <a href="#header" className={styles.upArrow}>
+        <img src="/arrow.png" alt="" />
+      </a>
+      <header id="header" className={styles.header}>
         <img
           src="/desktop/header_logo.png"
           className={styles.headerLogo}
@@ -72,10 +75,104 @@ const Index = ({ lang }) => {
       </header>
       <section className={styles.section1}>
         <h3>{lang.section1.text1}</h3>
+        <img
+          src="/section1/leftDeco.png"
+          alt=""
+          className={styles.section1LeftDeco}
+        />
+        <img
+          src="/section1/rightDeco.png"
+          alt=""
+          className={styles.section1RightDeco}
+        />
+        <img
+          src="/section1/mobileDeco.png"
+          alt=""
+          className={styles.section1MobileDeco}
+        />
       </section>
       <section className={styles.section2}>
         <h3>{lang.section2.text1}</h3>
+        <img
+          className={styles.section2Ferapets}
+          src="/section2/ferapets.png"
+          alt=""
+        />
+        <img
+          className={styles.section2MobileFerapets}
+          src="/section2/mobileFerapets.png"
+          alt=""
+        />
       </section>
+      <section className={styles.section3}>
+        <h3 className={styles.section3Title}>{lang.section3.title}</h3>
+        <h4 className={styles.section3Text1}>{lang.section3.text1}</h4>
+        <div className={styles.section3Float}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1em"
+            height="1em"
+            viewBox="0 0 256 256"
+          >
+            <path
+              fill="#ffff"
+              d="M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24m-4 48a12 12 0 1 1-12 12a12 12 0 0 1 12-12m12 112a16 16 0 0 1-16-16v-40a8 8 0 0 1 0-16a16 16 0 0 1 16 16v40a8 8 0 0 1 0 16"
+            />
+          </svg>
+          <h4>{lang.section3.text3}</h4>
+        </div>
+        <h4 className={styles.section3Text2}>{lang.section3.text2}</h4>
+        <img
+          className={styles.section3LeftDeco}
+          src="/section3/leftDeco.png"
+          alt=""
+        />
+        <img
+          className={styles.section3LeftDeco2}
+          src="/section3/leftDeco2.png"
+          alt=""
+        />
+        <img
+          className={styles.section3RightDeco}
+          src="/section3/rightDeco.png"
+          alt=""
+        />
+      </section>
+      <section className={styles.preSection4}>
+        <h3>{lang.section3.text4}</h3>
+        <div></div>
+      </section>
+      <section className={styles.section4}>
+        <h3>{lang.section4.title}</h3>
+        <p>{lang.section4.text1}</p>
+        <img
+          className={styles.section4Elements}
+          src="./section4/elements.png"
+          alt=""
+        />
+        <img
+          className={styles.section4Image}
+          src="./section4/image.png"
+          alt=""
+        />
+        <img
+          className={styles.section4MobileImage}
+          src="./section4/mobileImage.png"
+          alt=""
+        />
+      </section>
+      <section className={styles.section5}>
+        <h3>{lang.section5.title}</h3>
+        <div className={styles.section5UpContainer}>
+          <img src="/section5/first.png" alt="" />
+          <p>{lang.section5.text1}</p>
+        </div>
+        <div className={styles.section5DownContainer}>
+          <p>{lang.section5.text2}</p>
+          <img src="/section5/second.png" alt="" />
+        </div>
+      </section>
+      <section>asd</section>
     </main>
   );
 };
