@@ -13,14 +13,8 @@ const Index = ({ lang }) => {
   const [loader, setLoader] = useState(false);
   const [emailCounter, setEmailCounter] = useState(0);
   const [captchaState, setCaptchaState] = useState(true);
-  const [fixedNumber, setFixedNumber] = useState(null);
   const [headerEmailInput, setHeaderEmailInput] = useState("");
   const [footerEmailInput, setFooterEmailInput] = useState("");
-  React.useEffect(() => {
-    setTimeout(() => {
-      setLoader(false);
-    }, 1000);
-  }, []);
   function onChange(value) {
     console.log("Captcha value:", value);
     setCaptchaState(true);
@@ -29,18 +23,55 @@ const Index = ({ lang }) => {
       setInputSubmit(false);
     }
   }
-
-  const sendFirstEmail = (e, emailInput) => {
+  function actualLanguage() {
+    switch (lang.id) {
+      case 1:
+        return "Español";
+      case 2:
+        return "Ingles";
+      case 3:
+        return "Portugues";
+      case 4:
+        return "Coreano";
+      case 5:
+        return "Japones";
+      case 6:
+        return "Aleman";
+      case 7:
+        return "Holandes";
+      case 8:
+        return "Ruso";
+      case 9:
+        return "Frances";
+      case 10:
+        return "Chino";
+      case 11:
+        return "Italiano";
+      default:
+        break;
+    }
+  }
+  const postEmail = (e, emailInput) => {
     e.preventDefault();
-    console.log("IsValidEmail: ", isValidEmail(emailInput));
     if (captchaState && isValidEmail(emailInput)) {
       axios
         .post(
-          `https://starfish-app-licfp.ondigitalocean.app/api/auth/register`,
-          { email: emailInput }
+          `https://starfish-app-licfp.ondigitalocean.app/ferapet/save`,
+          // `localhost:4000/ferapet/save`,
+          { email: emailInput, origin: actualLanguage() }
         )
         .then(() => {
-          sendSecondEmail(emailInput);
+          getEmails();
+          toast.success(lang.toast.info1, {
+            position: "top-center",
+            autoClose: 2500,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
         })
         .catch((error) => {
           console.error("Error al enviar el email:", error);
@@ -82,82 +113,17 @@ const Index = ({ lang }) => {
       }
     }
   };
-  const sendSecondEmail = (emailInput) => {
+  const getEmails = () => {
     axios
-      .post(
-        "https://starfish-app-licfp.ondigitalocean.app/api/secretForestEmails/sendEmail",
-        { emailTo: emailInput }
-      )
-      .then(() => {
-        getEmailsCounter();
-        fetchFixedNumber();
-        toast.success(lang.toast.info1, {
-          position: "top-center",
-          autoClose: 2500,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          theme: "dark",
-        });
-        // setTimeout(() => {
-        //   toast.info(
-        //     "Now sign up for Kickstarter to be among the first to know about the campaign launch!",
-        //     {
-        //       position: "top-center",
-        //       autoClose: 4000,
-        //       hideProgressBar: false,
-        //       closeOnClick: true,
-        //       pauseOnHover: true,
-        //       draggable: true,
-        //       progress: undefined,
-        //       theme: "dark",
-        //     }
-        //   );
-        // }, 2000);
-        // setTimeout(() => {
-        //   window.location.href =
-        //     "https://www.kickstarter.com/projects/secretforest/secretforest";
-        // }, 7500);
-        setHeaderEmailInput("");
-        setFooterEmailInput("");
-      })
-      .catch((error) => {
-        toast.error(lang.toast.error, {
-          position: "top-center",
-          autoClose: 2500,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          theme: "dark",
-        });
-        console.error(error);
-      });
-  };
-  const getEmailsCounter = () => {
-    axios
-      .get(`https://starfish-app-licfp.ondigitalocean.app/api/auth/cuantity`)
+      .get(`https://starfish-app-licfp.ondigitalocean.app/ferapet/count`)
+      // .get(`localhost:4000/ferapet/get`)
       .then((response) => {
-        setEmailCounter(response.data.emailCuantity - 8775);
+        setEmailCounter(response.data.emailCuantity);
       });
   };
   const isValidEmail = (email) => {
     const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     return emailPattern.test(email);
-  };
-  const fetchFixedNumber = () => {
-    const API_URL =
-      "https://starfish-app-licfp.ondigitalocean.app/api/auth/cuantity";
-
-    axios
-      .get(API_URL)
-      .then((response) => {
-        setFixedNumber(response.data.emailCuantity - 8775);
-      })
-      .catch((error) => {});
   };
   function onChange(value) {
     console.log("Captcha value:", value);
@@ -168,11 +134,11 @@ const Index = ({ lang }) => {
     }
   }
   useEffect(() => {
-    getEmailsCounter();
-    fetchFixedNumber();
+    getEmails();
     setTimeout(() => {
       setLoader(false);
     }, 3000);
+    console.log("actualLenguaje: ", actualLanguage());
   }, []);
 
   return (
@@ -206,7 +172,12 @@ const Index = ({ lang }) => {
             And join 2000 more people!
           </label>
           <label htmlFor="">{lang.header.email}:</label>
-          <input type="text" placeholder={lang.header.placeholder} />
+          <input
+            type="text"
+            value={headerEmailInput}
+            onChange={(e) => setHeaderEmailInput(e.target.value)}
+            placeholder={lang.header.placeholder}
+          />
           <ReCAPTCHA
             size="normal"
             className={styles.headerCaptcha}
@@ -219,7 +190,9 @@ const Index = ({ lang }) => {
             sitekey="6LcKs2MoAAAAANbEb8FgM_zGq-AZx2SegfCCegkn"
             onChange={onChange}
           />
-          <button>{lang.header.signUp}</button>
+          <button onClick={(e) => postEmail(e, headerEmailInput)}>
+            {lang.header.signUp}
+          </button>
         </div>
         <img
           src="/desktop/header_bgForm.png"
@@ -384,7 +357,12 @@ const Index = ({ lang }) => {
             And join 2000 more people!
           </label>
           <label htmlFor="">{lang.header.email}:</label>
-          <input type="text" placeholder={lang.header.placeholder} />
+          <input
+            type="text"
+            value={footerEmailInput}
+            onChange={(e) => setFooterEmailInput(e.target.value)}
+            placeholder={lang.header.placeholder}
+          />
           <ReCAPTCHA
             size="normal"
             className={styles.headerCaptcha}
@@ -397,7 +375,9 @@ const Index = ({ lang }) => {
             sitekey="6LcKs2MoAAAAANbEb8FgM_zGq-AZx2SegfCCegkn"
             onChange={onChange}
           />
-          <button>{lang.header.signUp}</button>
+          <button onClick={(e) => postEmail(e, footerEmailInput)}>
+            {lang.header.signUp}
+          </button>
         </div>
         <img className={styles.formBg1} src="/form/left.png" alt="" />
         <img className={styles.formBg2} src="/form/right.png" alt="" />
