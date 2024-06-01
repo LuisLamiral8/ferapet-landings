@@ -1,6 +1,16 @@
 {
   "es": {
     "id": 1,
+    "toast": {
+      "info1": "¡Gracias por registrarte!",
+      "info2": "¡Ahora regístrate en Kickstarter para estar entre los primeros en enterarte del lanzamiento de la campaña!",
+      "error": "Error interno del servidor",
+      "emailRegistered": "El correo electrónico ya está registrado",
+      "verifyCaptcha": "Por favor verifique con captcha",
+      "emailWrong": "El correo electrónico es incorrecto",
+      "counter1": "Únete a",
+      "counter2": "más personas!"
+    },
     "header": {
       "title": "Prepárate para Ferapet",
       "email": "Email",
@@ -55,6 +65,16 @@
   },
   "en": {
     "id": 2,
+    "toast": {
+      "info1": "Thanks for signing up!",
+      "info2": "Now sign up on Kickstarter to be among the first to know about the campaign launch!",
+      "error": "Internal server error",
+      "emailRegistered": "The email is already registered",
+      "verifyCaptcha": "Please verify with captcha",
+      "emailWrong": "The email is incorrect",
+      "counter1": "Join",
+      "counter2": "more people!"
+    },
     "header": {
       "title": "Get ready for Ferapet",
       "email": "Email",
@@ -109,6 +129,16 @@
   },
   "br": {
     "id": 3,
+    "toast": {
+      "info1": "Obrigado por se inscrever!",
+      "info2": "Agora inscreva-se no Kickstarter para ser um dos primeiros a saber sobre o lançamento da campanha!",
+      "error": "Erro interno do servidor",
+      "emailRegistered": "O e-mail já está registrado",
+      "verifyCaptcha": "Por favor, verifique com captcha",
+      "emailWrong": "O e-mail está incorreto",
+      "counter1": "Junte-se a",
+      "counter2": "mais pessoas!"
+    },
     "header": {
       "title": "Prepare-se para Ferapet",
       "email": "Email",
@@ -161,62 +191,146 @@
       "title": "Siga-nos!"
     }
   },
-  "nl": {
+  "ko": {
     "id": 4,
+    "toast": {
+      "info1": "가입해 주셔서 감사합니다!",
+      "info2": "캠페인 출시 소식을 가장 먼저 알기 위해 Kickstarter에 등록하세요!",
+      "error": "내부 서버 오류",
+      "emailRegistered": "이메일이 이미 등록되어 있습니다",
+      "verifyCaptcha": "캡차를 확인해 주세요",
+      "emailWrong": "이메일이 올바르지 않습니다",
+      "counter1": "에 가입",
+      "counter2": "다른 사람들!"
+    },
     "header": {
-      "title": "Maak je klaar voor Ferapet",
-      "email": "E-mail",
-      "placeholder": "jouw@email.com",
-      "signUp": "Aanmelden"
+      "title": "Ferapet를 준비하세요",
+      "email": "이메일",
+      "placeholder": "your@email.com",
+      "signUp": "등록"
     },
     "section1": {
-      "text1": "Begin aan een episch avontuur in een wereld vol fantastische wezens!"
+      "text1": "환상적인 생물들로 가득 찬 세계에서 서사적인 모험을 떠나세요!"
     },
     "section2": {
-      "text1": "Ontdek meer dan 400 verschillende Feras!"
+      "text1": "400가지 이상의 다른 Feras를 발견하세요!"
     },
     "section3": {
-      "title": "Beheers de kunst van de FeraCube",
-      "text1": "Gooi je FeraCube met precisie om je doelen te verrassen.",
-      "text2": "Maak gebruik van hun onwetendheid, gebruik de FeraCube van achteren of lok ze met voedsel of muziek.",
-      "text3": "Sommige Feras zijn gemakkelijker te vangen tijdens het eten, vluchten of als ze betoverd zijn.",
-      "text4": "Experimenteer met verschillende technieken en hoeken om je vangsten te maximaliseren!"
+      "title": "FeraCube의 예술을 마스터하세요",
+      "text1": "정확하게 FeraCube를 던져 목표를 놀라게 하세요.",
+      "text2": "그들의 무지를 이용하여 뒤에서 FeraCube를 적용하거나 음식이나 음악으로 유인하세요.",
+      "text3": "일부 Feras는 먹거나 도망가거나 매혹된 상태에서 더 쉽게 잡을 수 있습니다.",
+      "text4": "다양한 기술과 각도로 실험하여 포획을 극대화하세요!"
     },
     "section4": {
-      "title": "Verzamel en train krachtige Feras",
-      "text1": "Elke Fera heeft zijn eigen vaardigheden, elementaire types en variaties."
+      "title": "강력한 Feras를 수집하고 훈련하세요",
+      "text1": "각 Fera는 고유한 능력, 원소 타입 및 변형을 가지고 있습니다."
     },
     "section5": {
-      "title": "Kweek en reproduceren je Feras voor nieuwe variaties",
-      "text1": "Kruis je Feras om nieuwe variaties te verkrijgen en je verzameling van ongelooflijke wezens uit te breiden.",
-      "text2": "Creëer de juiste omstandigheden voor succesvolle Fera-fokken en ontdek nieuwe soorten."
+      "title": "새로운 변형을 위해 Feras를 교배하고 번식시키세요",
+      "text1": "Feras를 교배하여 새로운 변형을 얻고 놀라운 생물 컬렉션을 확장하세요.",
+      "text2": "성공적인 Fera 번식을 위해 적절한 조건을 만들고 새로운 종을 발견하세요."
     },
     "section6": {
-      "title": "Personaliseer je karakter",
-      "text1": "Level omhoog en ontgrendel vaardigheden om je Feras te verbeteren"
+      "title": "캐릭터를 커스터마이징하세요",
+      "text1": "레벨을 올리고 Feras를 향상시키기 위해 스킬을 잠금 해제하세요"
     },
     "section7": {
-      "title": "Neem deel aan strategische gevechten in real-time!"
+      "title": "실시간 전략 전투에 참여하세요!"
     },
     "section8": {
-      "title": "Beheers verschillende soorten gevechten, van open-wereld ontmoetingen tot toernooien in arena's!"
+      "title": "오픈 월드 전투부터 콜로세움 토너먼트까지 다양한 전투 유형을 마스터하세요!"
     },
     "section9": {
-      "title": "Voltooi de Ferapedia",
-      "text1": "Onderzoek en documenteer elke Fera om de Ferapedia te voltooien, een uitgebreide encyclopedie van alle wezens in het spel."
+      "title": "Ferapedia를 완성하세요",
+      "text1": "게임의 모든 생물에 대한 포괄적인 백과사전인 Ferapedia를 완성하기 위해 각 Fera를 연구하고 문서화하세요."
     },
     "form": {
-      "title": "Help ons en wees de eerste om de bèta te spelen zodra deze uitkomt!",
-      "email": "E-mail",
-      "placeholder": "jouw@email.com",
-      "signUp": "Aanmelden"
+      "title": "도와주시고 베타가 출시되면 가장 먼저 플레이하세요!",
+      "email": "이메일",
+      "placeholder": "your@email.com",
+      "signUp": "등록"
     },
     "footer": {
-      "title": "Volg ons!"
+      "title": "팔로우하세요!"
+    }
+  },
+  "ja": {
+    "id": 5,
+    "toast": {
+      "info1": "ご登録ありがとうございます！",
+      "info2": "キャンペーンの開始を最初に知るために、Kickstarterに登録しましょう！",
+      "error": "内部サーバーエラー",
+      "emailRegistered": "メールアドレスは既に登録されています",
+      "verifyCaptcha": "キャプチャを確認してください",
+      "emailWrong": "メールアドレスが間違っています",
+      "counter1": "に参加",
+      "counter2": "他の人々!"
+    },
+    "header": {
+      "title": "Ferapetの準備をしましょう",
+      "email": "メール",
+      "placeholder": "your@email.com",
+      "signUp": "サインアップ"
+    },
+    "section1": {
+      "text1": "ファンタジー生物が満ちる世界で壮大な冒険に出かけよう！"
+    },
+    "section2": {
+      "text1": "400種類以上の異なるFerasを発見しよう！"
+    },
+    "section3": {
+      "title": "FeraCubeの技術をマスターしよう",
+      "text1": "目標を驚かせるために正確にFeraCubeを投げましょう。",
+      "text2": "彼らの無知を利用して背後からFeraCubeを使ったり、食べ物や音楽でおびき寄せたりしましょう。",
+      "text3": "一部のFerasは、食事中や逃走中、魅了されている時により簡単に捕まえられます。",
+      "text4": "捕獲を最大化するために、さまざまな技術や角度を試してみましょう！"
+    },
+    "section4": {
+      "title": "強力なFerasを集めて訓練しよう",
+      "text1": "各Feraには独自の能力、元素タイプ、バリエーションがあります。"
+    },
+    "section5": {
+      "title": "新しいバリエーションのためにFerasを育成しよう",
+      "text1": "Ferasを交配して新しいバリエーションを得て、驚くべき生物のコレクションを拡大しましょう。",
+      "text2": "成功したFeraの繁殖のために適切な条件を作り、新しい種を発見しましょう。"
+    },
+    "section6": {
+      "title": "キャラクターをカスタマイズしよう",
+      "text1": "レベルアップしてスキルをアンロックし、Ferasを強化しましょう"
+    },
+    "section7": {
+      "title": "リアルタイム戦略バトルに参加しよう！"
+    },
+    "section8": {
+      "title": "オープンワールドでの遭遇からアリーナトーナメントまで、さまざまな戦闘タイプをマスターしよう！"
+    },
+    "section9": {
+      "title": "Ferapediaを完成させよう",
+      "text1": "ゲーム内のすべての生物の包括的な百科事典であるFerapediaを完成させるために、各Feraを調査して記録しよう。"
+    },
+    "form": {
+      "title": "ベータ版がリリースされたら最初にプレイするために協力してください！",
+      "email": "メール",
+      "placeholder": "your@email.com",
+      "signUp": "サインアップ"
+    },
+    "footer": {
+      "title": "フォローしてください！"
     }
   },
   "de": {
-    "id": 5,
+    "id": 6,
+    "toast": {
+      "info1": "Vielen Dank für Ihre Anmeldung!",
+      "info2": "Melden Sie sich jetzt auf Kickstarter an, um als Erster über den Kampagnenstart informiert zu werden!",
+      "error": "Interner Serverfehler",
+      "emailRegistered": "Die E-Mail ist bereits registriert",
+      "verifyCaptcha": "Bitte bestätigen Sie mit Captcha",
+      "emailWrong": "Die E-Mail ist falsch",
+      "counter1": "Mach mit",
+      "counter2": "weitere Leute!"
+    },
     "header": {
       "title": "Mach dich bereit für Ferapet",
       "email": "E-Mail",
@@ -269,8 +383,146 @@
       "title": "Folge uns!"
     }
   },
+  "nl": {
+    "id": 7,
+    "toast": {
+      "info1": "Bedankt voor je aanmelding!",
+      "info2": "Meld je nu aan op Kickstarter om als eerste op de hoogte te zijn van de lancering van de campagne!",
+      "error": "Interne serverfout",
+      "emailRegistered": "Het e-mailadres is al geregistreerd",
+      "verifyCaptcha": "Controleer alstublieft met captcha",
+      "emailWrong": "Het e-mailadres is onjuist",
+      "counter1": "Doe mee met",
+      "counter2": "meer mensen!"
+    },
+    "header": {
+      "title": "Maak je klaar voor Ferapet",
+      "email": "E-mail",
+      "placeholder": "jouw@email.com",
+      "signUp": "Aanmelden"
+    },
+    "section1": {
+      "text1": "Begin aan een episch avontuur in een wereld vol fantastische wezens!"
+    },
+    "section2": {
+      "text1": "Ontdek meer dan 400 verschillende Feras!"
+    },
+    "section3": {
+      "title": "Beheers de kunst van de FeraCube",
+      "text1": "Gooi je FeraCube met precisie om je doelen te verrassen.",
+      "text2": "Maak gebruik van hun onwetendheid, gebruik de FeraCube van achteren of lok ze met voedsel of muziek.",
+      "text3": "Sommige Feras zijn gemakkelijker te vangen tijdens het eten, vluchten of als ze betoverd zijn.",
+      "text4": "Experimenteer met verschillende technieken en hoeken om je vangsten te maximaliseren!"
+    },
+    "section4": {
+      "title": "Verzamel en train krachtige Feras",
+      "text1": "Elke Fera heeft zijn eigen vaardigheden, elementaire types en variaties."
+    },
+    "section5": {
+      "title": "Kweek en reproduceren je Feras voor nieuwe variaties",
+      "text1": "Kruis je Feras om nieuwe variaties te verkrijgen en je verzameling van ongelooflijke wezens uit te breiden.",
+      "text2": "Creëer de juiste omstandigheden voor succesvolle Fera-fokken en ontdek nieuwe soorten."
+    },
+    "section6": {
+      "title": "Personaliseer je karakter",
+      "text1": "Level omhoog en ontgrendel vaardigheden om je Feras te verbeteren"
+    },
+    "section7": {
+      "title": "Neem deel aan strategische gevechten in real-time!"
+    },
+    "section8": {
+      "title": "Beheers verschillende soorten gevechten, van open-wereld ontmoetingen tot toernooien in arena's!"
+    },
+    "section9": {
+      "title": "Voltooi de Ferapedia",
+      "text1": "Onderzoek en documenteer elke Fera om de Ferapedia te voltooien, een uitgebreide encyclopedie van alle wezens in het spel."
+    },
+    "form": {
+      "title": "Help ons en wees de eerste om de bèta te spelen zodra deze uitkomt!",
+      "email": "E-mail",
+      "placeholder": "jouw@email.com",
+      "signUp": "Aanmelden"
+    },
+    "footer": {
+      "title": "Volg ons!"
+    }
+  },
+  "ru": {
+    "id": 8,
+    "toast": {
+      "info1": "Спасибо за регистрацию!",
+      "info2": "Теперь зарегистрируйтесь на Kickstarter, чтобы быть в числе первых, кто узнает о запуске кампании!",
+      "error": "Внутренняя ошибка сервера",
+      "emailRegistered": "Электронная почта уже зарегистрирована",
+      "verifyCaptcha": "Пожалуйста, подтвердите с помощью капчи",
+      "emailWrong": "Электронная почта указана неправильно",
+      "counter1": "Присоединяйтесь к",
+      "counter2": "другим людям!"
+    },
+    "header": {
+      "title": "Приготовьтесь к Ferapet",
+      "email": "Эл. почта",
+      "placeholder": "your@email.com",
+      "signUp": "Зарегистрироваться"
+    },
+    "section1": {
+      "text1": "Отправляйтесь в эпическое приключение в мир, полный фантастических существ!"
+    },
+    "section2": {
+      "text1": "Откройте для себя более 400 различных Feras!"
+    },
+    "section3": {
+      "title": "Освойте искусство FeraCube",
+      "text1": "Точно бросайте FeraCube, чтобы застать своих целей врасплох.",
+      "text2": "Используйте их неосведомленность, применяйте FeraCube сзади или заманивайте их едой или музыкой.",
+      "text3": "Некоторые Feras легче поймать, когда они едят, убегают или очарованы.",
+      "text4": "Экспериментируйте с различными техниками и углами, чтобы максимизировать свои уловы!"
+    },
+    "section4": {
+      "title": "Собирайте и тренируйте мощных Feras",
+      "text1": "Каждый Fera имеет свои собственные способности, элементальные типы и вариации."
+    },
+    "section5": {
+      "title": "Разводите и размножайте своих Feras для новых вариаций",
+      "text1": "Скрещивайте своих Feras, чтобы получить новые вариации и расширить свою коллекцию удивительных существ.",
+      "text2": "Создайте подходящие условия для успешного разведения Feras и откройте новые виды."
+    },
+    "section6": {
+      "title": "Настройте своего персонажа",
+      "text1": "Повышайте уровень и открывайте навыки, чтобы улучшить своих Feras"
+    },
+    "section7": {
+      "title": "Участвуйте в стратегических битвах в реальном времени!"
+    },
+    "section8": {
+      "title": "Освойте различные типы боев, от встреч в открытом мире до турниров на арене!"
+    },
+    "section9": {
+      "title": "Завершите Ferapedia",
+      "text1": "Исследуйте и документируйте каждого Fera, чтобы завершить Ferapedia, исчерпывающую энциклопедию всех существ в игре."
+    },
+    "form": {
+      "title": "Помогите нам и станьте первым, кто сыграет в бета-версии!",
+      "email": "Эл. почта",
+      "placeholder": "your@email.com",
+      "signUp": "Зарегистрироваться"
+    },
+    "footer": {
+      "title": "Подписывайтесь!"
+    }
+  },
   "fr": {
-    "id": 6,
+    "id": 9,
+    "toast": {
+      "info1": "Merci pour votre inscription !",
+      "info2": "Inscrivez-vous maintenant sur Kickstarter pour être parmi les premiers informés du lancement de la campagne !",
+      "error": "Erreur interne du serveur",
+      "emailRegistered": "L'email est déjà enregistré",
+      "verifyCaptcha": "Veuillez vérifier avec le captcha",
+      "emailWrong": "L'email est incorrect",
+      "counter1": "Rejoignez",
+      "counter2": "plus de personnes !"
+    },
     "header": {
       "title": "Préparez-vous pour Ferapet",
       "email": "E-mail",
@@ -323,8 +575,82 @@
       "title": "Suivez-nous!"
     }
   },
+  "zh": {
+    "id": 10,
+    "toast": {
+      "info1": "感谢您的注册！",
+      "info2": "现在在Kickstarter上注册，成为第一批了解活动启动的人！",
+      "error": "内部服务器错误",
+      "emailRegistered": "电子邮件已注册",
+      "verifyCaptcha": "请通过验证码验证",
+      "emailWrong": "电子邮件不正确",
+      "counter1": "加入",
+      "counter2": "更多人！"
+    },
+    "header": {
+      "title": "准备好迎接Ferapet",
+      "email": "电子邮件",
+      "placeholder": "your@email.com",
+      "signUp": "注册"
+    },
+    "section1": {
+      "text1": "踏上一个充满奇幻生物的世界的史诗冒险之旅！"
+    },
+    "section2": {
+      "text1": "发现超过400种不同的Feras！"
+    },
+    "section3": {
+      "title": "掌握FeraCube的艺术",
+      "text1": "精准投掷FeraCube，给你的目标带来惊喜。",
+      "text2": "利用它们的无知，从后方使用FeraCube，或者用食物或音乐引诱它们。",
+      "text3": "一些Feras在进食、逃跑或被迷住时更容易被捕获。",
+      "text4": "尝试各种技术和角度，以最大化你的捕获！"
+    },
+    "section4": {
+      "title": "收集和训练强大的Feras",
+      "text1": "每个Fera都有其独特的能力、元素类型和变种。"
+    },
+    "section5": {
+      "title": "为了新的变种，培育和繁殖你的Feras",
+      "text1": "通过培育Feras来获得新的变种，并扩展你惊人的生物收藏。",
+      "text2": "创造适当的条件，以成功繁殖Feras并发现新物种。"
+    },
+    "section6": {
+      "title": "自定义你的角色",
+      "text1": "升级并解锁技能，以增强你的Feras"
+    },
+    "section7": {
+      "title": "参与实时策略战斗！"
+    },
+    "section8": {
+      "title": "掌握从开放世界遭遇战到竞技场锦标赛的各种战斗类型！"
+    },
+    "section9": {
+      "title": "完成Ferapedia",
+      "text1": "研究并记录每个Fera，以完成Ferapedia，这是一部涵盖游戏中所有生物的综合百科全书。"
+    },
+    "form": {
+      "title": "帮助我们并在测试版发布时最早体验游戏！",
+      "email": "电子邮件",
+      "placeholder": "your@email.com",
+      "signUp": "注册"
+    },
+    "footer": {
+      "title": "关注我们！"
+    }
+  },
   "it": {
-    "id": 7,
+    "id": 11,
+    "toast": {
+      "info1": "Grazie per esserti registrato!",
+      "info2": "Ora iscriviti su Kickstarter per essere tra i primi a sapere del lancio della campagna!",
+      "error": "Errore interno del server",
+      "emailRegistered": "L'email è già registrata",
+      "verifyCaptcha": "Si prega di verificare con captcha",
+      "emailWrong": "L'email è errata",
+      "counter1": "Unisciti a",
+      "counter2": "altre persone!"
+    },
     "header": {
       "title": "Preparati per Ferapet",
       "email": "Email",
