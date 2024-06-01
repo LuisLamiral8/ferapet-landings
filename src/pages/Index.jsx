@@ -169,7 +169,7 @@ const Index = ({ lang }) => {
         <h1>{lang.header.title}!</h1>
         <div className={styles.headerForm}>
           <label htmlFor="" className={styles.headerJoinPeople}>
-            And join 2000 more people!
+            {lang.toast.counter1} {emailCounter} {lang.toast.counter2}
           </label>
           <label htmlFor="">{lang.header.email}:</label>
           <input
@@ -354,7 +354,7 @@ const Index = ({ lang }) => {
         <p>{lang.form.title}</p>
         <div className={styles.headerForm}>
           <label htmlFor="" className={styles.headerJoinPeople}>
-            And join 2000 more people!
+            {lang.toast.counter1} {emailCounter} {lang.toast.counter2}
           </label>
           <label htmlFor="">{lang.header.email}:</label>
           <input
