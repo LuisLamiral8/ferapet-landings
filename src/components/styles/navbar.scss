@@ -2,9 +2,10 @@ nav {
   .navMain {
     position: fixed;
     top: 15px;
-    left: 15px;
+    left: 20px;
     z-index: 26;
     button {
+      width: 50px;
       cursor: pointer;
       background: transparent;
       border: none;
@@ -15,6 +16,9 @@ nav {
       &:hover {
         animation: 300ms balance;
       }
+      &:active {
+        animation: coin 1s;
+      }
     }
   }
   .navLangActive {
@@ -23,7 +27,9 @@ nav {
     align-items: center;
     margin: 0 auto;
     flex-direction: column;
-    background-color: #626088c9;
+    // background-color: #626088c9;
+    background-color: #e9701486;
+
     position: fixed;
     top: 0;
     left: 10px;
@@ -79,5 +85,14 @@ nav {
         }
       }
     }
+  }
+}
+
+@keyframes coin {
+  0% {
+    transform: translateX(0deg);
+  }
+  100% {
+    transform: translateX(360deg);
   }
 }
