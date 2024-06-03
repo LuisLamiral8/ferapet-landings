@@ -15,7 +15,7 @@ const Index = ({ lang }) => {
   const [captchaState, setCaptchaState] = useState(true);
   const [headerEmailInput, setHeaderEmailInput] = useState("");
   const [footerEmailInput, setFooterEmailInput] = useState("");
-  const [modalKickstarter, setModalKickstarter] = useState(true);
+  const [modalKickstarter, setModalKickstarter] = useState(false);
 
   function onChange(value) {
     console.log("Captcha value:", value);
