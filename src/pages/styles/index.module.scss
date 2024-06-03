@@ -1,5 +1,124 @@
 .container {
   color: white;
+  .kickstarterXl {
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.368);
+    width: 100%;
+    height: 100%;
+    div {
+      width: 525px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      img {
+        width: 100%;
+      }
+      button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+        transition: all 250ms;
+        cursor: pointer;
+        &:hover {
+          transform: rotate(180deg);
+        }
+        svg {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  .kickstarterMd {
+    display: none;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    padding-top: 10px;
+
+    background-color: rgba(0, 0, 0, 0.368);
+    width: 100%;
+    height: 100%;
+    div {
+      width: 360px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      position: relative;
+      img {
+        width: 100%;
+      }
+      button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+        transition: all 250ms;
+        cursor: pointer;
+        &:hover {
+          transform: rotate(180deg);
+        }
+        svg {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  .kickstarterXs {
+    display: none;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    padding-top: 10px;
+
+    background-color: rgba(0, 0, 0, 0.368);
+    width: 100%;
+    height: 100%;
+    div {
+      width: 250px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      position: relative;
+      img {
+        width: 100%;
+      }
+      button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+        transition: all 250ms;
+        cursor: pointer;
+        &:hover {
+          transform: rotate(180deg);
+        }
+        svg {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
   .upArrow {
     position: fixed;
     // bottom: 0;
@@ -957,6 +1076,12 @@
 }
 @media (max-width: 800px) {
   .container {
+    .kickstarterXl {
+      display: none;
+    }
+    .kickstarterMd {
+      display: flex;
+    }
     .section1 {
       h3 {
         font-size: 40px;
@@ -1534,6 +1659,12 @@
 }
 @media (max-width: 420px) {
   .container {
+    .kickstarterMd {
+      display: none;
+    }
+    .kickstarterXs {
+      display: flex;
+    }
     .section3 {
       overflow: hidden;
       .section3Title {

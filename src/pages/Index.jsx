@@ -15,6 +15,8 @@ const Index = ({ lang }) => {
   const [captchaState, setCaptchaState] = useState(true);
   const [headerEmailInput, setHeaderEmailInput] = useState("");
   const [footerEmailInput, setFooterEmailInput] = useState("");
+  const [modalKickstarter, setModalKickstarter] = useState(true);
+
   function onChange(value) {
     console.log("Captcha value:", value);
     setCaptchaState(true);
@@ -72,6 +74,15 @@ const Index = ({ lang }) => {
             progress: undefined,
             theme: "dark",
           });
+          setTimeout(() => {
+            setModalKickstarter(true);
+          }, 1000);
+          setTimeout(() => {
+            window.location.href =
+              "https://www.kickstarter.com/projects/secretforest/secretforest";
+          }, 7500);
+          setFooterEmailInput("");
+          setHeaderEmailInput("");
         })
         .catch((error) => {
           console.error("Error al enviar el email:", error);
@@ -155,6 +166,64 @@ const Index = ({ lang }) => {
         pauseOnHover
         theme="dark"
       />
+      {modalKickstarter == true && (
+        <>
+          <div className={styles.kickstarterXl}>
+            <div>
+              <img src="/modal/xl.jpg" alt="" />
+              <button onClick={() => setModalKickstarter(false)}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="#ffff"
+                    d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div className={styles.kickstarterMd}>
+            <div>
+              <img src="/modal/md.jpg" alt="" />
+              <button onClick={() => setModalKickstarter(false)}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="#ffff"
+                    d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div className={styles.kickstarterXs}>
+            <div>
+              <img src="/modal/xs.jpg" alt="" />
+              <button onClick={() => setModalKickstarter(false)}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="#ffff"
+                    d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </>
+      )}
       <Loader loader={loader}></Loader>
       <Navbar lang={lang} isHome={true} />
       <a href="#header" className={styles.upArrow}>
