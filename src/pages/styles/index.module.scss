@@ -723,7 +723,7 @@
       position: relative;
       z-index: 2;
       font-size: 40px;
-      font-famgily: "Eras Bold";
+      font-family: "Eras Bold";
       text-align: center;
     }
     .headerForm {
@@ -1231,6 +1231,11 @@
       }
       .headerForm {
         width: 350px;
+        button{
+          width: 90%;
+          height: 50px;
+          font-size: 25px;
+        }
       }
     }
     .section1 {
