@@ -179,6 +179,10 @@
       text-align: center;
       // background: red;
       // width: 32%;
+      .headerCaptcha {
+        left: 0;
+        align-self: center;
+      }
 
       width: 425px;
       .headerJoinPeople {
@@ -194,7 +198,7 @@
         padding: 10px 0 10px 15px;
       }
       button {
-        margin: 15px 0 25px 0;
+        margin: 15px 0 0px 0;
         background-color: #f6b83e;
         border: none;
         width: 150px;
@@ -209,6 +213,11 @@
         &:hover {
           background-color: #c39230;
         }
+      }
+      .feraRed {
+        width: 350px;
+        align-self: center;
+        margin-bottom: 25px;
       }
       .headerCaptchaMobile {
         display: none;
@@ -313,7 +322,7 @@
       margin-top: 30px;
       font-weight: 400;
       font-family: "Eras Medium";
-      font-size: 2vw;
+      font-size: 2.5vw;
       right: 50px;
       width: 50%;
       text-align: center;
@@ -322,8 +331,8 @@
     }
     .section3Float {
       position: absolute;
-      right: 0;
-      top: 300px;
+      right: 20px;
+      top: 200px;
       width: 400px;
       border-radius: 20px;
       height: 100px;
@@ -338,6 +347,7 @@
         align-items: center;
         width: 80%;
         height: 100%;
+        font-size: 20px;
         font-weight: 300;
         font-family: "Eras Light";
       }
@@ -350,7 +360,7 @@
       }
     }
     .section3Text2 {
-      font-size: 2.3vw;
+      font-size: 2.8vw;
       text-align: center;
       font-weight: 300;
       margin-top: 50px;
@@ -371,7 +381,7 @@
     .section3LeftDeco2 {
       position: absolute;
       bottom: 0;
-      right: 550px;
+      right: 800px;
       width: 500px;
       z-index: 1;
     }
@@ -379,7 +389,7 @@
       position: absolute;
       bottom: 0;
       right: 0;
-      width: 500px;
+      width: 700px;
       z-index: 1;
     }
   }
@@ -417,6 +427,7 @@
     justify-content: flex-end;
     align-items: flex-start;
     flex-direction: column;
+    overflow: hidden;
     h3,
     p,
     img {
@@ -431,7 +442,7 @@
       font-family: "Eras Medium";
     }
     .section4Elements {
-      width: 400px;
+      width: 500px;
       margin: 50px 0 75px 0;
     }
     h3 {
@@ -441,8 +452,16 @@
       text-shadow: 3px 3px 10px black;
       font-family: "Eras Bold";
     }
+    .section4BigImage {
+      z-index: 1;
+      width: 70%;
+      padding-top: 100px;
+      position: absolute;
+      right: 0;
+    }
     .section4Image {
       position: absolute;
+      display: none;
       right: 0;
       bottom: 0;
       width: 750px;
@@ -692,7 +711,7 @@
   }
   .form {
     width: 100%;
-    height: 800px;
+    height: 850px;
     background-color: #001334;
     position: relative;
     display: flex;
@@ -703,7 +722,7 @@
     p {
       position: relative;
       z-index: 2;
-      font-size: 50px;
+      font-size: 40px;
       font-family: "Eras Bold";
       text-align: center;
     }
@@ -719,7 +738,7 @@
       text-align: center;
       width: 425px;
       .headerJoinPeople {
-        margin: 30px 0 20px 0;
+        margin: 10px 0;
       }
       input {
         margin: 5px 0 15px 0;
@@ -731,14 +750,15 @@
         padding: 10px 0 10px 15px;
       }
       button {
-        margin: 15px 0 25px 0;
+        margin: 25px 0 0px 0;
         background-color: #f6b83e;
         border: none;
-        width: 300px;
-        height: 40px;
+        width: 370px;
+        height: 50px;
         border-radius: 20px;
         font-family: "Montserrat";
         font-weight: 800;
+        font-size: 25px;
         color: white;
         cursor: pointer;
         transition: all 250ms;
@@ -749,17 +769,23 @@
       .headerCaptchaMobile {
         display: none;
       }
+      .feraBlue {
+        width: 500px;
+        align-self: center;
+        margin-bottom: 25px;
+      }
     }
     .formBg1 {
-      width: 20%;
+      width: 25%;
       position: absolute;
       bottom: 0;
       left: 0;
       z-index: 2;
     }
     .formBg2 {
-      width: 20%;
+      width: 25%;
       position: absolute;
+
       bottom: 0;
       right: 0;
       z-index: 2;
@@ -780,34 +806,35 @@
     .formDiscord {
       position: absolute;
       z-index: 5;
-      bottom: 0px;
+      bottom: 70px;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       width: 100%;
-      p {
-        margin-bottom: 30px;
-      }
       a {
         display: flex;
         justify-content: center;
-        align-items: flex-start;
-        border-radius: 20px 20px 0 0;
-        padding-top: 30px;
+        align-items: center;
+        border-radius: 20px;
+        padding: 15px 0;
         width: 350px;
-        height: 150px;
+        height: 75px;
+        // height: 150px;
         cursor: pointer;
         background-color: #5865f2;
         transition: all 250ms;
         &:hover {
           background-color: #404bbb;
         }
+        svg {
+          width: 150px;
+          height: 150px;
+        }
       }
     }
   }
 }
-
 @media (max-height: 750px) {
   .container {
     .header {
@@ -835,8 +862,34 @@
     }
   }
 }
+@media (max-width: 1700px) {
+  .container {
+    .section3 {
+      .section3RightDeco {
+        width: 550px;
+      }
+      .section3LeftDeco2 {
+        right: 600px;
+      }
+    }
+  }
+}
+@media (max-width: 1500px) {
+  .container {
+    .section4 {
+      .section4BigImage {
+        width: 90%;
+      }
+    }
+  }
+}
 @media (max-width: 1420px) {
   .container {
+    .section3 {
+      .section3Float {
+        width: 320px;
+      }
+    }
     .section5 {
       .section5UpContainer,
       .section5DownContainer {
@@ -846,6 +899,21 @@
       }
       .section5DownContainer {
         margin-top: -50px;
+      }
+    }
+    .form {
+      height: 900px;
+    }
+  }
+}
+@media (max-width: 1275px) {
+  .container {
+    .section4 {
+      .section4BigImage {
+        display: none;
+      }
+      .section4Image {
+        display: initial;
       }
     }
   }
@@ -898,6 +966,14 @@
 }
 @media (max-width: 1100px) {
   .container {
+    .section3 {
+      .section3RightDeco {
+        width: 500px;
+      }
+      .section3LeftDeco2 {
+        right: 490px;
+      }
+    }
     .section4 {
       .section4Elements {
         width: 300px;
@@ -941,7 +1017,8 @@
       }
     }
     .form {
-      height: 600px;
+      height: 100%;
+      padding-bottom: 200px;
       p {
         font-size: 40px;
       }
@@ -962,6 +1039,12 @@
 }
 @media (max-width: 1000px) {
   .container {
+    .header {
+      height: 100%;
+      .headerForm {
+        // background: red;
+      }
+    }
     .section2 {
       h3 {
         font-size: 45px;
@@ -1144,7 +1227,7 @@
       }
       .headerFormBg {
         width: 430px;
-        height: 375px;
+        height: 525px;
       }
       .headerForm {
         width: 350px;
@@ -1345,7 +1428,7 @@
       }
     }
     .form {
-      height: 750px;
+      // height: 750px;
       .formBg1,
       .formBg2,
       .formBg3 {
@@ -1480,7 +1563,6 @@
       }
     }
     .form {
-      height: 650px;
       p {
         font-size: 30px;
         padding: 0 15px;
@@ -1492,6 +1574,12 @@
         }
         input {
           width: 100%;
+        }
+        button{
+        width: 90%;
+        }
+        .feraBlue {
+          width: 90%;
         }
       }
     }

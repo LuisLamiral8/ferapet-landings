@@ -262,6 +262,7 @@ const Index = ({ lang }) => {
           <button onClick={(e) => postEmail(e, headerEmailInput)}>
             {lang.header.signUp}
           </button>
+          <img className={styles.feraRed} src="./FeraRed.png" alt="" />
         </div>
         <img
           src="/desktop/header_bgForm.png"
@@ -347,6 +348,11 @@ const Index = ({ lang }) => {
           alt=""
         />
         <img
+          className={styles.section4BigImage}
+          src="./section4/bigImage.png"
+          alt=""
+        />
+        <img
           className={styles.section4Image}
           src="./section4/image.png"
           alt=""
@@ -368,8 +374,6 @@ const Index = ({ lang }) => {
           <img src="/section5/second.png" alt="" />
         </div>
       </section>
-      {/* Terminado hasta acá  */}
-
       <section className={styles.section6}>
         <h3>{lang.section6.title}</h3>
         <p>{lang.section6.text1}</p>
@@ -447,6 +451,7 @@ const Index = ({ lang }) => {
           <button onClick={(e) => postEmail(e, footerEmailInput)}>
             {lang.header.signUp}
           </button>
+        <img className={styles.feraBlue} src="/FeraBlue.png" alt="" />
         </div>
         <img className={styles.formBg1} src="/form/left.png" alt="" />
         <img className={styles.formBg2} src="/form/right.png" alt="" />
