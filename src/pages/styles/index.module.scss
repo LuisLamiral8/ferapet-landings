@@ -723,7 +723,7 @@
       position: relative;
       z-index: 2;
       font-size: 40px;
-      font-family: "Eras Bold";
+      font-famgily: "Eras Bold";
       text-align: center;
     }
     .headerForm {
@@ -1649,10 +1649,8 @@
 @media (max-width: 450px) {
   .container {
     .header {
-      // height: 100vh;
       padding-top: 100px;
       display: flex;
-      // justify-content: flex-end;
       .headerLogo {
         width: 310px;
         padding-bottom: 50px;
@@ -1666,12 +1664,13 @@
       .headerForm {
         justify-self: flex-end;
         width: 250px;
-        font-size: 15px;
+        // font-size: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         width: 70%;
+  
         input {
           width: 90%;
         }
