@@ -838,8 +838,10 @@
 @media (max-height: 750px) {
   .container {
     .header {
+      height: 120vh;
       .headerFormBg {
         width: 550px;
+        height: 550px;
       }
     }
     .section3 {
@@ -847,14 +849,17 @@
     }
   }
 }
-@media (max-height: 650px) {
+@media (max-height: 655px) {
   .container {
     .header {
+      height: 130vh;
+
       h1 {
         font-size: 60px;
       }
       .headerFormBg {
         width: 500px;
+        height: 525px;
       }
     }
     .section3 {
@@ -1231,7 +1236,7 @@
       }
       .headerForm {
         width: 350px;
-        button{
+        button {
           width: 90%;
           height: 50px;
           font-size: 25px;
@@ -1568,6 +1573,7 @@
       }
     }
     .form {
+      overflow: hidden;
       p {
         font-size: 30px;
         padding: 0 15px;
@@ -1580,11 +1586,11 @@
         input {
           width: 100%;
         }
-        button{
-        width: 90%;
+        button {
+          width: 90%;
         }
         .feraBlue {
-          width: 90%;
+          width: 110%;
         }
       }
     }
@@ -1654,11 +1660,9 @@
 @media (max-width: 450px) {
   .container {
     .header {
-      padding-top: 100px;
       display: flex;
       .headerLogo {
         width: 310px;
-        padding-bottom: 50px;
       }
       h1 {
         font-size: 30px;
@@ -1669,13 +1673,15 @@
       .headerForm {
         justify-self: flex-end;
         width: 250px;
-        // font-size: 15px;
+        // font-size: 15x;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         width: 70%;
-  
+        .feraRed {
+          width: 300px;
+        }
         input {
           width: 90%;
         }
