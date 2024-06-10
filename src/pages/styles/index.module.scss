@@ -146,7 +146,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("../../../public/desktop/header_bg.jpg");
+    background-image: url("../../../public/landingPage/desktop/header_bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -236,7 +236,7 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-image: url("../../../public/section1/bg.jpg");
+    background-image: url("../../../public/landingPage/section1/bg.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -276,7 +276,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    background-image: url("../../../public/section2/bg.jpg");
+    background-image: url("../../../public/landingPage/section2/bg.jpg");
     background-position: center;
     background-size: cover;
     flex-direction: column;
@@ -299,7 +299,7 @@
   .section3 {
     width: 100%;
     height: 100vh !important;
-    background-image: url("../../../public/section3/bg.jpg");
+    background-image: url("../../../public/landingPage/section3/bg.jpg");
     background-position: 100% center;
     background-size: cover;
     display: flex;
@@ -478,7 +478,7 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-image: url("../../../public/section5/bg.jpg");
+    background-image: url("../../../public/landingPage/section5/bg.jpg");
     background-position: center 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -629,7 +629,7 @@
   .section9 {
     width: 100%;
     height: 100%;
-    background-image: url("../../../public/section9/bg.jpg");
+    background-image: url("../../../public/landingPage/section9/bg.jpg");
     background-position: center 100%;
     background-size: cover;
     display: flex;
@@ -1222,7 +1222,7 @@
 @media (max-width: 720px) {
   .container {
     .header {
-      background-image: url("../../../public/mobile/header_bg.jpg");
+      background-image: url("../../../public/landingPage/mobile/header_bg.jpg");
       padding-top: 50px;
       .headerLogo {
         width: 80%;
@@ -1245,7 +1245,7 @@
     }
     .section1 {
       height: 100%;
-      background-image: url("../../../public/section1/mobileBg.jpg");
+      background-image: url("../../../public/landingPage/section1/mobileBg.jpg");
       background-position: center 20%;
       background-size: cover;
       justify-content: center;
@@ -1274,7 +1274,7 @@
       }
     }
     .section2 {
-      background-image: url("../../../public/section2/mobileBg.jpg");
+      background-image: url("../../../public/landingPage/section2/mobileBg.jpg");
       overflow: hidden;
       .section2Ferapets {
         display: none;

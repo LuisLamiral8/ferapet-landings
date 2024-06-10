@@ -9,7 +9,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 import { ToastContainer, toast } from "react-toastify";
 import axios from "axios";
 
-const Index = ({ lang }) => {
+const LandingPage = ({ lang }) => {
   const [loader, setLoader] = useState(false);
   const [emailCounter, setEmailCounter] = useState(0);
   const [captchaState, setCaptchaState] = useState(true);
@@ -170,7 +170,7 @@ const Index = ({ lang }) => {
         <>
           <div className={styles.kickstarterXl}>
             <div>
-              <img src="/modal/xl.jpg" alt="" />
+              <img loading="lazy" src="/landingPage/modal/xl.jpg" alt="" />
               <button onClick={() => setModalKickstarter(false)}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -188,7 +188,7 @@ const Index = ({ lang }) => {
           </div>
           <div className={styles.kickstarterMd}>
             <div>
-              <img src="/modal/md.jpg" alt="" />
+              <img loading="lazy" src="/landingPage/modal/md.jpg" alt="" />
               <button onClick={() => setModalKickstarter(false)}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -206,7 +206,7 @@ const Index = ({ lang }) => {
           </div>
           <div className={styles.kickstarterXs}>
             <div>
-              <img src="/modal/xs.jpg" alt="" />
+              <img loading="lazy" src="/landingPage/modal/xs.jpg" alt="" />
               <button onClick={() => setModalKickstarter(false)}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -227,11 +227,11 @@ const Index = ({ lang }) => {
       <Loader loader={loader}></Loader>
       <Navbar lang={lang} isHome={true} />
       <a href="#header" className={styles.upArrow}>
-        <img src="/arrow.png" alt="" />
+        <img loading="lazy" src="/landingPage/arrow.png" alt="" />
       </a>
       <header id="header" className={styles.header}>
-        <img
-          src="/desktop/header_logo.png"
+        <img loading="lazy"
+          src="/landingPage/desktop/header_logo.png"
           className={styles.headerLogo}
           alt=""
         />
@@ -250,54 +250,54 @@ const Index = ({ lang }) => {
           <ReCAPTCHA
             size="normal"
             className={styles.headerCaptcha}
-            sitekey="6LcKs2MoAAAAANbEb8FgM_zGq-AZx2SegfCCegkn"
+            sitekey="6LffkPUpAAAAAFz29HWVDFmBumIYm_DMCcb1V2I3"
             onChange={onChange}
           />
           <ReCAPTCHA
             size="compact"
             className={styles.headerCaptchaMobile}
-            sitekey="6LcKs2MoAAAAANbEb8FgM_zGq-AZx2SegfCCegkn"
+            sitekey="6LffkPUpAAAAAFz29HWVDFmBumIYm_DMCcb1V2I3"
             onChange={onChange}
           />
           <button onClick={(e) => postEmail(e, headerEmailInput)}>
             {lang.header.signUp}
           </button>
-          <img className={styles.feraRed} src="./FeraRed.png" alt="" />
+          <img loading="lazy" className={styles.feraRed} src="/landingPage/FeraRed.png" alt="" />
         </div>
-        <img
-          src="/desktop/header_bgForm.png"
+        <img loading="lazy"
+          src="/landingPage/desktop/header_bgForm.png"
           className={styles.headerFormBg}
           alt=""
         />
       </header>
       <section className={styles.section1}>
         <h3>{lang.section1.text1}</h3>
-        <img
-          src="/section1/leftDeco.png"
+        <img loading="lazy"
+          src="/landingPage/section1/leftDeco.png"
           alt=""
           className={styles.section1LeftDeco}
         />
-        <img
-          src="/section1/rightDeco.png"
+        <img loading="lazy"
+          src="/landingPage/section1/rightDeco.png"
           alt=""
           className={styles.section1RightDeco}
         />
-        <img
-          src="/section1/mobileDeco.png"
+        <img loading="lazy"
+          src="/landingPage/section1/mobileDeco.png"
           alt=""
           className={styles.section1MobileDeco}
         />
       </section>
       <section className={styles.section2}>
         <h3>{lang.section2.text1}</h3>
-        <img
+        <img loading="lazy"
           className={styles.section2Ferapets}
-          src="/section2/ferapets.png"
+          src="/landingPage/section2/ferapets.png"
           alt=""
         />
-        <img
+        <img loading="lazy"
           className={styles.section2MobileFerapets}
-          src="/section2/mobileFerapets.png"
+          src="/landingPage/section2/mobileFerapets.png"
           alt=""
         />
       </section>
@@ -319,19 +319,19 @@ const Index = ({ lang }) => {
           <h4>{lang.section3.text3}</h4>
         </div>
         <h4 className={styles.section3Text2}>{lang.section3.text2}</h4>
-        <img
+        <img loading="lazy"
           className={styles.section3LeftDeco}
-          src="/section3/leftDeco.png"
+          src="/landingPage/section3/leftDeco.png"
           alt=""
         />
-        <img
+        <img loading="lazy"
           className={styles.section3LeftDeco2}
-          src="/section3/leftDeco2.png"
+          src="/landingPage/section3/leftDeco2.png"
           alt=""
         />
-        <img
+        <img loading="lazy"
           className={styles.section3RightDeco}
-          src="/section3/rightDeco.png"
+          src="/landingPage/section3/rightDeco.png"
           alt=""
         />
       </section>
@@ -342,36 +342,36 @@ const Index = ({ lang }) => {
       <section className={styles.section4}>
         <h3>{lang.section4.title}</h3>
         <p>{lang.section4.text1}</p>
-        <img
+        <img loading="lazy"
           className={styles.section4Elements}
-          src="./section4/elements.png"
+          src="/landingPage/section4/elements.png"
           alt=""
         />
-        <img
+        <img loading="lazy"
           className={styles.section4BigImage}
-          src="./section4/bigImage.png"
+          src="/landingPage/section4/bigImage.png"
           alt=""
         />
-        <img
+        <img loading="lazy"
           className={styles.section4Image}
-          src="./section4/image.png"
+          src="/landingPage/section4/image.png"
           alt=""
         />
-        <img
+        <img loading="lazy"
           className={styles.section4MobileImage}
-          src="./section4/mobileImage.png"
+          src="/landingPage/section4/mobileImage.png"
           alt=""
         />
       </section>
       <section className={styles.section5}>
         <h3>{lang.section5.title}</h3>
         <div className={styles.section5UpContainer}>
-          <img src="/section5/first.png" alt="" />
+          <img loading="lazy" src="/landingPage/section5/first.png" alt="" />
           <p>{lang.section5.text1}</p>
         </div>
         <div className={styles.section5DownContainer}>
           <p>{lang.section5.text2}</p>
-          <img src="/section5/second.png" alt="" />
+          <img loading="lazy" src="/landingPage/section5/second.png" alt="" />
         </div>
       </section>
       <section className={styles.section6}>
@@ -379,29 +379,29 @@ const Index = ({ lang }) => {
         <p>{lang.section6.text1}</p>
         <div className={styles.section6Tiers}>
           <div className={styles.section6Tier}>
-            <img src="/section6/tier1.png" alt="" />
+            <img loading="lazy" src="/landingPage/section6/tier1.png" alt="" />
             <p>Tier 1</p>
           </div>
           <div className={styles.section6Tier}>
-            <img src="/section6/tier2.png" alt="" />
+            <img loading="lazy" src="/landingPage/section6/tier2.png" alt="" />
             <p>Tier 2</p>
           </div>
           <div className={styles.section6Tier}>
-            <img src="/section6/tier3.png" alt="" />
+            <img loading="lazy" src="/landingPage/section6/tier3.png" alt="" />
             <p>Tier 3</p>
           </div>
         </div>
-        <img className={styles.section6Bg} src="/section6/bg.png" alt="" />
+        <img loading="lazy" className={styles.section6Bg} src="/landingPage/section6/bg.png" alt="" />
       </section>
       {/*  */}
       <section className={styles.section7}>
         <h3>{lang.section7.title}</h3>
-        <img src="/section7/battle.png" alt="" />
+        <img loading="lazy" src="/landingPage/section7/battle.png" alt="" />
       </section>
       {/*  */}
       <section className={styles.section8}>
         <h3>{lang.section8.title}</h3>
-        <img src="/section8/battle.jpg" alt="" />
+        <img loading="lazy" src="/landingPage/section8/battle.jpg" alt="" />
       </section>
       {/*  */}
       <section className={styles.section9}>
@@ -410,10 +410,10 @@ const Index = ({ lang }) => {
           <div className={styles.section9Left}>
             <p>{lang.section9.text1}</p>
             <div></div>
-            <img src="/section9/ferapets.png" alt="" />
+            <img loading="lazy" src="/landingPage/section9/ferapets.png" alt="" />
           </div>
           <div className={styles.section9Right}>
-            <img src="/section9/ferapedia.png" alt="" />
+            <img loading="lazy" src="/landingPage/section9/ferapedia.png" alt="" />
           </div>
         </div>
         <div className={styles.section9Divisor}>
@@ -439,24 +439,24 @@ const Index = ({ lang }) => {
           <ReCAPTCHA
             size="normal"
             className={styles.headerCaptcha}
-            sitekey="6LcKs2MoAAAAANbEb8FgM_zGq-AZx2SegfCCegkn"
+            sitekey="6LffkPUpAAAAAFz29HWVDFmBumIYm_DMCcb1V2I3"
             onChange={onChange}
           />
           <ReCAPTCHA
             size="compact"
             className={styles.headerCaptchaMobile}
-            sitekey="6LcKs2MoAAAAANbEb8FgM_zGq-AZx2SegfCCegkn"
+            sitekey="6LffkPUpAAAAAFz29HWVDFmBumIYm_DMCcb1V2I3"
             onChange={onChange}
           />
           <button onClick={(e) => postEmail(e, footerEmailInput)}>
             {lang.header.signUp}
           </button>
-        <img className={styles.feraBlue} src="/FeraBlue.png" alt="" />
+        <img loading="lazy" className={styles.feraBlue} src="/landingPage/FeraBlue.png" alt="" />
         </div>
-        <img className={styles.formBg1} src="/form/left.png" alt="" />
-        <img className={styles.formBg2} src="/form/right.png" alt="" />
-        <img className={styles.formBg3} src="/form/mid1.png" alt="" />
-        <img className={styles.formBg4} src="/form/mid2.png" alt="" />
+        <img loading="lazy" className={styles.formBg1} src="/landingPage/form/left.png" alt="" />
+        <img loading="lazy" className={styles.formBg2} src="/landingPage/form/right.png" alt="" />
+        <img loading="lazy" className={styles.formBg3} src="/landingPage/form/mid1.png" alt="" />
+        <img loading="lazy" className={styles.formBg4} src="/landingPage/form/mid2.png" alt="" />
         <div className={styles.formDiscord}>
           <p>{lang.footer.title}</p>
           <a>
@@ -479,4 +479,4 @@ const Index = ({ lang }) => {
   );
 };
 
-export default Index;
+export default LandingPage;
