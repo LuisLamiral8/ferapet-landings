@@ -1567,6 +1567,11 @@
         padding-bottom: 30px;
       }
     }
+    .section4 {
+      .section4MobileImage {
+        right: 0;
+      }
+    }
     .section8 {
       img {
         width: 800px;
@@ -1614,9 +1619,6 @@
         width: 60%;
         // font-size: 20px;
         // background: red;
-      }
-      .section3RightDeco {
-        right: -50px;
       }
     }
     .section4 {
@@ -1804,7 +1806,6 @@
       }
       .section4MobileImage {
         width: 230px;
-        right: -50px;
       }
     }
     .section9 {
