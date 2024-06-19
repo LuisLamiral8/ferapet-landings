@@ -1,5 +1,27 @@
 {
   "es": {
-    "id": 1
+    "id": 1,
+    "header": {
+      "trailer": "Trailer"
+    },
+    "embarkAdventure": {
+      "title": "¡Embárcate en una aventura épica con FeraPet!",
+      "text1": "Explora un mundo abierto sin límites",
+      "text2": "Recorre vastos paisajes y descubre secretos ocultos en la naturaleza salvaje."
+    },
+    "discoverVillages": {
+      "text": "Descubre pueblos vibrantes y estructuras útiles"
+    },
+    "dominateCreatures": {
+      "title": "¡Domina a las criaturas fantásticas de FeraPet!",
+      "text1": "En FeraPet, la captura de Feras va más allá del combate. Explroa en un mundo lleno de posibilidades para atrapar a estas criaturas mágicas y aumentar tu colección.",
+      "text2": "Aprovéchate de su desprevención, aplica el Feracubo por la espalda o atrae su atención con comida o música.",
+      "text3": "Experimenta con diferentes Feracubos y técnicas para descubrir la mejor estrategia para cada especie.",
+      "text4Pre": "La suerte también juega un papel importante, pero la",
+      "text4Bold1": "astucia",
+      "text4Mid": " y la ",
+      "text4Bold2": "planificación",
+      "text4Final": "te darán la ventaja."
+    }
   }
 }
