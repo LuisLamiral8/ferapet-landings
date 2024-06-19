@@ -2,6 +2,7 @@
   width: 100%;
   height: 100%;
   line-height: 0.85;
+  overflow: hidden;
   color: white;
   .header {
     width: 100%;
@@ -15,6 +16,15 @@
     align-items: flex-start;
     flex-direction: column;
     padding-bottom: 100px;
+    position: relative;
+    .headerDeco {
+      position: absolute;
+      // bottom: -50px;
+      bottom: 10px;
+      z-index: 2;
+      left: 0;
+      width: 30%;
+    }
     .headerFera {
       position: absolute;
       right: 50px;
@@ -22,6 +32,7 @@
       bottom: -10px;
     }
     .headerMain {
+      z-index: 4;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -136,21 +147,324 @@
       text-align: center;
     }
   }
+  .dominateCreatures {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../public/homePage/dominateCreatures/bg.webp");
+    background-position: center 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Eras Bold";
+    text-align: center;
+    padding-top: 25px;
+    gap: 30px;
+    position: relative;
+    padding-bottom: 50px;
+    .dominateCreaturesWave {
+      position: absolute;
+      width: 100%;
+      bottom: -5px;
+      z-index: 2;
+      left: -5px;
+    }
+    .dominateCreaturesFera1 {
+      position: absolute;
+      left: -100px;
+      top: 250px;
+      width: 23vw;
+    }
+    .dominateCreaturesFera2 {
+      position: absolute;
+      right: -100px;
+      top: 250px;
+      width: 23vw;
+    }
+    .dominateCreaturesTitle {
+      font-size: 5vw;
+      width: 50%;
+    }
+    .dominateCreaturesSubtitle {
+      font-size: 2.5vw;
+      width: 60%;
+      font-family: Eras Medium;
+      font-weight: 600;
+    }
+    .dominateCreaturesVideo1 {
+      width: 60%;
+      height: 30vw;
+    }
+    .dominateCreaturesCube {
+      margin: 75px 0;
+      width: 80%;
+      height: 100%;
+      background-color: #40280e;
+      border-radius: 25px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      position: relative;
+      text-align: center;
+      padding: 30px 0 30px 125px;
+
+      img {
+        position: absolute;
+        left: -150px;
+        width: 30vw;
+      }
+      p {
+        font-size: 4vw;
+        // background: red;
+        width: 80%;
+      }
+    }
+    .dominateCreaturesVideo2 {
+      width: 60%;
+      height: 30vw;
+      z-index: 4;
+    }
+  }
+  .experimentTecs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00145d;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    padding: 100px 25px;
+    p {
+      width: 85%;
+      font-size: 2.5vw;
+      font-family: Eras Medium;
+    }
+  }
+  .raiseCreatures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../../../public/homePage/raiseCreature/bg.webp");
+    text-align: center;
+    font-family: Eras Bold;
+    gap: 30px;
+    padding-top: 30px;
+    h4 {
+      font-size: 5vw;
+    }
+    p {
+      font-family: Eras Medium;
+      font-size: 2vw;
+    }
+    .raiseCreaturesBreeding {
+      width: 90%;
+    }
+    .raiseCreaturesEgg {
+      width: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      p {
+        width: 50%;
+        font-size: 2vw;
+        font-weight: 100;
+      }
+      img {
+        width: 20vw;
+      }
+    }
+  }
+  .levelUpFeras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../../../public/homePage/levelUp/bg.webp");
+    padding-bottom: 50px;
+    h3 {
+      font-size: 4vw;
+      font-family: Eras Medium;
+      font-weight: 100;
+      text-align: center;
+      width: 75%;
+      margin-bottom: 15px;
+    }
+    img {
+      width: 90%;
+    }
+    .levelUpFerasTiers {
+      width: 90%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      span {
+        margin-top: 25px;
+        position: relative;
+        right: 150px;
+        font-size: 3vw;
+        font-family: Eras Bold;
+      }
+    }
+  }
+  .farmResources {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../public/homePage/farmResources/bg.webp");
+    background-position: center;
+    background-size: cover;
+    font-weight: 1000;
+    font-family: Eras Bold;
+    text-align: center;
+    padding: 50px 0;
+    gap: 30px;
+    .farmResourcesFera1 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 23vw;
+    }
+    .farmResourcesFera2 {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 23vw;
+    }
+    .farmResourcesRock1 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 15vw;
+    }
+    .farmResourcesRock2 {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 15vw;
+    }
+    .farmResourcesTitle {
+      font-size: 6vw;
+    }
+    .farmResourcesContainer1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      width: 90%;
+
+      .farmResourcesContainer1Left {
+        width: 50%;
+        img {
+          width: 100%;
+        }
+      }
+      .farmResourcesContainer1Right {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        p {
+          font-size: 2vw;
+        }
+        div {
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          justify-content: center;
+          img {
+            width: 10vw;
+          }
+        }
+      }
+    }
+    .farmResourcesText2 {
+      color: #654b34;
+      width: 80%;
+      font-size: 3.4vw;
+      font-family: Eras Medium;
+      font-weight: 800;
+      margin: 25px;
+    }
+    .farmResourcesText3 {
+      color: #654b34;
+      width: 60%;
+      font-size: 3vw;
+      font-family: Eras Medium;
+      font-weight: 800;
+      margin: 25px;
+    }
+    .farmResourcesVideo {
+      width: 50%;
+      height: 25vw;
+    }
+  }
+  .participateBattles {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../public/homePage/participateBattles/bg.webp");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Eras Bold;
+    text-align: center;
+    padding: 50px 0;
+    gap: 30px;
+    .participateBattlesTitle {
+      font-size: 7vw;
+      width: 80%;
+    }
+    .participateBattlesSubtitle {
+      font-size: 2vw;
+      width: 60%;
+      margin: 25px 0 0 0;
+      margin-bottom: -50px;
+      position: relative;
+      right: 300px;
+    }
+    .participateBattlesBattle {
+      width: 95%;
+    }
+    .participateBattlesContainer1 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: -100px;
+      .participateBattlesVideo {
+        width: 50%;
+        height: 60vh;
+      }
+      img {
+        width: 40vw;
+        position: relative;
+        left: 100px;
+        bottom: 150px;
+      }
+    }
+  }
 }
 
 @media (max-width: 1350px) {
   .container {
     .header {
       height: 100%;
-      background-position: left bottom;
-      background-repeat: no-repeat; /* Opcional, si no quieres que la imagen se repita */
-      background-size: cover; /* Opcional, si quieres que la imagen cubra todo el elemento */
     }
     .embarkAdventure {
       height: 100%;
-      background-position: left bottom;
-      background-repeat: no-repeat; /* Opcional, si no quieres que la imagen se repita */
-      background-size: cover; /* Opcional, si quieres que la imagen cubra todo el elemento */
+      background-position: 0% 0%;
 
       .embarkAdventureFera2 {
         right: -150px;
@@ -158,6 +472,7 @@
     }
     .discoverVillages {
       height: 100%;
+
       h3 {
         margin-left: 15vw;
       }
@@ -167,6 +482,9 @@
 @media (max-width: 1100px) {
   .container {
     .header {
+      .headerDeco {
+        width: 40vw;
+      }
       .headerMain {
         padding-left: 25px;
         iframe {
@@ -216,15 +534,15 @@
         width: 50%;
       }
     }
-    .discoverVillages{
-      .discoverVillagesFera1{
+    .discoverVillages {
+      .discoverVillagesFera1 {
         width: 30%;
       }
-      .discoverVillagesFera2{
+      .discoverVillagesFera2 {
         width: 60%;
         right: -150px;
       }
-      h3{
+      h3 {
         margin-top: 50px;
         font-size: 7vw;
         margin-bottom: 40px;

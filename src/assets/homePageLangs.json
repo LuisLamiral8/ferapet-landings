@@ -22,6 +22,26 @@
       "text4Mid": " y la ",
       "text4Bold2": "planificación",
       "text4Final": "te darán la ventaja."
+    },
+    "raiseCreatures": {
+      "title": "Cría y reproduce a tus Feras para obtener nuevas variaciones",
+      "text1": "Cruza a tus Feras para obtener nuevas variaciones y ampliar tu coleccion de critaruas increibles.",
+      "text2": "Crea las condiciones adecuadas par que la reproducción entre Feras sea exitosa y descubre nuevas especies."
+    },
+    "levelUpFeras": {
+      "title": "Sube de nivel a tus Feras con recursos específicos para aumentar su poder y convertirlos en los mejores guerreros de tu equipo.",
+      "tier1": "TIER 1",
+      "tier2": "TIER 2"
+    },
+    "farmResources": {
+      "title": "Farmea recursos, crea objetos y experimenta con diferentes profesiones.",
+      "text1": "Obten recursos como bayas, minerales, madera y más con tus Feras y explora tu lado aventurero.",
+      "text2": "Experimenta con la cocina, la alquimía, la modista y la herrería para crear objetos únicos y personalizar tu experiencia.",
+      "text3": "Embárcate en una aventura sin límites donde la astucia, la creatividad y la exploración te llevarán a la cima del éxito."
+    },
+    "participateBattles": {
+      "title": "Participa en épicas batallas por turnos",
+      "text1": "Enfrenta a otros Feras en emocionantes combates por turnos y utiliza las habilidades únicas para cada uno para dominar la batalla."
     }
   }
 }
