@@ -164,7 +164,7 @@
     padding-bottom: 50px;
     .dominateCreaturesWave {
       position: absolute;
-      width: 100%;
+      width: 105%;
       bottom: -5px;
       z-index: 2;
       left: -5px;
@@ -262,6 +262,14 @@
     .raiseCreaturesBreeding {
       width: 90%;
     }
+    .raiseCreaturesMobileBreeding1 {
+      display: none;
+      width: 90%;
+    }
+    .raiseCreaturesMobileBreeding2 {
+      display: none;
+      width: 70%;
+    }
     .raiseCreaturesEgg {
       width: 70%;
       display: flex;
@@ -284,7 +292,7 @@
     align-items: center;
     flex-direction: column;
     background-image: url("../../../public/homePage/levelUp/bg.webp");
-    padding-bottom: 50px;
+    padding: 50px 0;
     h3 {
       font-size: 4vw;
       font-family: Eras Medium;
@@ -301,13 +309,19 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
-
       span {
         margin-top: 25px;
         position: relative;
-        right: 150px;
+        // right: 240px;
+        right: 12vw;
         font-size: 3vw;
         font-family: Eras Bold;
+      }
+      span:first-child {
+        bottom: 150px;
+
+        // right: 120px;
+        right: 5vw;
       }
     }
   }
@@ -387,6 +401,43 @@
         }
       }
     }
+    .farmResourcesContainer1Mobile {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
+      .farmResourcesContainer1Up {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 98%;
+        img {
+          width: 50%;
+        }
+        p {
+          font-size: 5vw;
+          font-weight: 900;
+          line-height: 1;
+          padding: 0 25px;
+          font-family: Eras Medium;
+        }
+      }
+      .farmResourcesContainer1Down {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 90%;
+        img {
+          width: 50%;
+          &:last-child {
+            width: 40%;
+          }
+        }
+      }
+    }
     .farmResourcesText2 {
       color: #654b34;
       width: 80%;
@@ -432,7 +483,8 @@
       margin: 25px 0 0 0;
       margin-bottom: -50px;
       position: relative;
-      right: 300px;
+      // right: 300px;
+      right: 18vw;
     }
     .participateBattlesBattle {
       width: 95%;
@@ -445,18 +497,30 @@
       margin-bottom: -100px;
       .participateBattlesVideo {
         width: 50%;
-        height: 60vh;
+        height: 25vw;
       }
       img {
         width: 40vw;
         position: relative;
         left: 100px;
-        bottom: 150px;
+        bottom: 7vw;
       }
     }
   }
 }
-
+@media (max-width: 1550px) {
+  .container {
+    .levelUpFeras {
+      .levelUpFerasTiers {
+        span {
+          &:first-child {
+            bottom: 100px;
+          }
+        }
+      }
+    }
+  }
+}
 @media (max-width: 1350px) {
   .container {
     .header {
@@ -476,6 +540,21 @@
       h3 {
         margin-left: 15vw;
       }
+    }
+    .dominateCreatures {
+      .dominateCreaturesCube {
+        width: 70%;
+        padding: 30px 0 30px 0px;
+        img {
+          width: 25vw;
+          // top: -15px;
+        }
+        p {
+        }
+      }
+    }
+    .experimentTecs {
+      padding: 50px 25px;
     }
   }
 }
@@ -505,6 +584,65 @@
     .discoverVillages {
       h3 {
         font-size: 8vw;
+      }
+    }
+    .dominateCreatures {
+      background-position: center 35%;
+      .dominateCreaturesCube {
+        margin: 10px 0 40px 0;
+      }
+    }
+    .raiseCreatures {
+      background-position: center;
+    }
+    .levelUpFeras {
+      .levelUpFerasTiers {
+        span {
+          &:first-child {
+            bottom: 80px;
+          }
+        }
+      }
+    }
+    .participateBattles {
+      .participateBattlesContainer1 {
+        margin-bottom: -50px;
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  .container {
+    .dominateCreatures {
+      background-position: center 40%;
+      .dominateCreaturesFera1 {
+        top: 100px;
+        left: -75px;
+      }
+      .dominateCreaturesFera2 {
+        top: 100px;
+        right: -75px;
+      }
+
+      .dominateCreaturesCube {
+        img {
+          left: -100px;
+        }
+      }
+    }
+    .raiseCreatures {
+      padding-bottom: 50px;
+      .raiseCreaturesEgg {
+        p {
+          font-size: 3vw;
+        }
+      }
+    }
+    .participateBattles {
+      .participateBattlesContainer1 {
+        img {
+          left: 50px;
+        }
       }
     }
   }
@@ -546,6 +684,364 @@
         margin-top: 50px;
         font-size: 7vw;
         margin-bottom: 40px;
+      }
+    }
+    .levelUpFeras {
+      .levelUpFerasTiers {
+        span:first-child {
+          bottom: 60px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    .header {
+      background-image: url("../../../public/homePage/header/mobileBg.webp");
+      background-position: center;
+      background-size: cover;
+      flex-direction: column-reverse;
+      align-items: center;
+      padding: 0 0 20px 0;
+      .headerDeco {
+        display: none;
+      }
+      .headerFera {
+        position: initial;
+        width: 60%;
+      }
+      .headerMain {
+        img {
+          width: 60%;
+        }
+        iframe {
+          width: 60%;
+          height: 30vw;
+          outline: 3px solid white;
+        }
+        p {
+          font-size: 4vw;
+        }
+      }
+    }
+    .embarkAdventure {
+      background-image: url("../../../public/homePage/embarkAdventure/mobileBg.webp");
+      background-position: center;
+      background-position: 0% 0% !important;
+      background-size: cover;
+      background-size: cover;
+      .embarkAdventureFera1 {
+        width: 40vw;
+        // left: -50px;
+        left: -7vw;
+      }
+      .embarkAdventureFera2 {
+        width: 55vw;
+        // right: -250px;
+        right: -35vw;
+      }
+      h3 {
+        font-size: 8vw;
+      }
+      h4 {
+        font-size: 8vw;
+        width: 60%;
+      }
+      p {
+        align-self: flex-start;
+        width: 80%;
+        margin-bottom: 75px;
+        font-size: 5vw;
+        font-weight: 900;
+        font-family: Eras Medium;
+      }
+    }
+    .discoverVillages {
+      height: 100%;
+      .discoverVillagesDeco {
+        height: 75%;
+      }
+      .discoverVillagesFera1 {
+        // width: 350px;
+        width: 35vw;
+        left: -100px;
+      }
+      .discoverVillagesFera2 {
+        width: 60vw;
+        right: -150px;
+      }
+      h3 {
+        // background: red;
+        padding-left: 25px;
+        width: 62%;
+        // margin-left: 500px;
+        margin-top: 25px;
+        margin-left: 0;
+        align-self: flex-start;
+      }
+    }
+    .dominateCreatures {
+      background-image: url("../../../public/homePage/dominateCreatures/mobileBg.webp");
+      background-position: center 40%;
+      background-size: cover;
+      .dominateCreaturesFera1 {
+        // display: none;
+        top: 530px;
+      }
+      .dominateCreaturesFera2 {
+        // display: none;
+        top: 530px;
+      }
+      .dominateCreaturesTitle {
+        // background: red;
+        width: 85%;
+      }
+      .dominateCreaturesSubtitle {
+        font-size: 4vw;
+        width: 80%;
+      }
+      .dominateCreaturesVideo1,
+      .dominateCreaturesVideo2 {
+        width: 75%;
+        height: 40vw;
+        z-index: 4;
+      }
+      .dominateCreaturesCube {
+        margin: 135px 0 0px 0;
+        z-index: 4;
+        flex-direction: column;
+        padding: 140px 10px 20px 10px;
+        p {
+          width: 100%;
+          font-size: 5vw;
+        }
+        img {
+          // position: relative;
+          left: initial;
+          right: initial;
+          // top: -150px;
+          top: -20vw;
+          // width: 300px;
+          width: 40vw;
+        }
+      }
+    }
+    .experimentTecs {
+      padding: 50px 0 30px 0;
+      p {
+        font-size: 4vw;
+        font-weight: 800;
+        width: 95%;
+      }
+    }
+    .raiseCreatures {
+      padding-bottom: 0;
+      h4 {
+        font-size: 7vw;
+      }
+      p {
+        font-size: 5vw;
+      }
+      .raiseCreaturesBreeding {
+        display: none;
+      }
+      .raiseCreaturesMobileBreeding1,
+      .raiseCreaturesMobileBreeding2 {
+        display: flex;
+      }
+      .raiseCreaturesEgg {
+        // background: red;
+        width: 95%;
+        p {
+          font-size: 5vw;
+          width: 100%;
+        }
+        img {
+          width: 25vw;
+        }
+      }
+    }
+    .levelUpFeras {
+      h3 {
+        width: 95%;
+        font-size: 6vw;
+      }
+      img {
+        width: 110%;
+      }
+      .levelUpFerasTiers {
+        span {
+          right: 10vw;
+          &:first-child {
+            right: 11.5vw;
+          }
+        }
+      }
+    }
+    .farmResources {
+      .farmResourcesContainer1 {
+        display: none;
+      }
+      .farmResourcesContainer1Mobile {
+        display: flex;
+      }
+      .farmResourcesText2 {
+        font-size: 8vw;
+        width: 90%;
+      }
+      .farmResourcesVideo {
+        width: 80%;
+        height: 45vw;
+      }
+      .farmResourcesText3 {
+        width: 90%;
+        font-size: 6vw;
+        margin: 0 0 38vw 0;
+      }
+      .farmResourcesFera1 {
+        width: 45vw;
+      }
+      .farmResourcesFera2 {
+        width: 40vw;
+      }
+      .farmResourcesRock1 {
+        width: 30vw;
+      }
+      .farmResourcesRock2 {
+        width: 30vw;
+      }
+    }
+    .participateBattles {
+      .participateBattlesTitle {
+        font-size: 9vw;
+        width: 95%;
+      }
+      .participateBattlesSubtitle {
+        right: 0;
+        margin: 0;
+        font-size: 5vw;
+        width: 90%;
+        font-family: Eras Medium;
+        font-weight: 800;
+      }
+      .participateBattlesContainer1 {
+        width: 90%;
+        height: 45vw;
+        margin-bottom: 25px;
+        .participateBattlesVideo {
+          width: 100%;
+          height: 100%;
+        }
+        img {
+          display: none;
+        }
+      }
+      .participateBattlesBattle{
+        width: 200%;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    .embarkAdventure {
+      .embarkAdventureFera1 {
+        // width: 52vw;
+        width: 275px;
+        left: -50px;
+      }
+      .embarkAdventureFera2 {
+        width: 375px;
+        right: -250px;
+      }
+      h4 {
+        width: 75%;
+        margin-bottom: 10px;
+      }
+      p {
+        width: 65%;
+      }
+    }
+    .discoverVillages {
+      .discoverVillagesFera1 {
+        left: 0;
+      }
+      .discoverVillagesFera2 {
+        width: 70vw;
+      }
+    }
+    .dominateCreatures {
+      background-position: center 60%;
+
+      .dominateCreaturesFera1 {
+        top: 400px;
+        width: 30vw;
+        left: -20px;
+      }
+      .dominateCreaturesFera2 {
+        top: 380px;
+        width: 35vw;
+        right: -70px;
+      }
+      .dominateCreaturesCube {
+        margin: 100px 0 0 0;
+        padding-top: 100px;
+      }
+    }
+    .levelUpFeras {
+      .levelUpFerasTiers {
+        span {
+          font-size: 5vw;
+        }
+      }
+    }
+    .farmResources {
+      .farmResourcesText2 {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    .embarkAdventure {
+      .embarkAdventureFera1 {
+        width: 215px;
+      }
+      .embarkAdventureFera2 {
+        width: 320px;
+        right: -190px;
+      }
+    }
+    .discoverVillages {
+      .discoverVillagesFera1 {
+      }
+      .discoverVillagesFera2 {
+        width: 80vw;
+      }
+      h3 {
+        font-size: 11vw;
+      }
+    }
+    .dominateCreatures {
+      .dominateCreaturesFera1 {
+        top: 320px;
+        left: -30px;
+      }
+      .dominateCreaturesFera2 {
+        top: 320px;
+        right: -50px;
+      }
+      .dominateCreaturesCube {
+        padding-top: 85px;
+      }
+    }
+    .farmResources {
+      .farmResourcesText3 {
+        margin-bottom: 33vw;
       }
     }
   }

@@ -134,6 +134,16 @@ const HomePage = ({ lang }) => {
           src="/homePage/raiseCreature/breeding.webp"
           alt=""
         />
+        <img
+          className={styles.raiseCreaturesMobileBreeding1}
+          src="/homePage/raiseCreature/mobileBreeding1.png"
+          alt=""
+        />
+        <img
+          className={styles.raiseCreaturesMobileBreeding2}
+          src="/homePage/raiseCreature/mobileBreeding2.png"
+          alt=""
+        />
         <div className={styles.raiseCreaturesEgg}>
           <p>{lang.raiseCreatures.text2}</p>
           <img src="/homePage/raiseCreature/egg.webp" alt="" />
@@ -171,6 +181,7 @@ const HomePage = ({ lang }) => {
         <h3 className={styles.farmResourcesTitle}>
           {lang.farmResources.title}
         </h3>
+        {/*  */}
         <div className={styles.farmResourcesContainer1}>
           <div className={styles.farmResourcesContainer1Left}>
             <img src="/homePage/farmResources/wood.webp" alt="" />
@@ -183,6 +194,17 @@ const HomePage = ({ lang }) => {
             </div>
           </div>
         </div>
+        <div className={styles.farmResourcesContainer1Mobile}>
+          <div className={styles.farmResourcesContainer1Up}>
+            <img src="/homePage/farmResources/wood.webp" alt="" />
+            <p>{lang.farmResources.text1}</p>
+          </div>
+          <div className={styles.farmResourcesContainer1Down}>
+            <img src="/homePage/farmResources/berries.webp" alt="" />
+            <img src="/homePage/farmResources/gems.webp" alt="" />
+          </div>
+        </div>
+        {/*  */}
         <p className={styles.farmResourcesText2}>{lang.farmResources.text2}</p>
         <iframe
           className={styles.farmResourcesVideo}
