@@ -246,7 +246,128 @@ const HomePage = ({ lang }) => {
           alt=""
         />
       </section>
-      <section>asdasd</section>
+      <section className={styles.enjoyFeras}>
+        <img
+          className={styles.enjoyFerasFera1}
+          src="/homePage/enjoyFeras/fera1.webp"
+          alt=""
+        />
+        <img
+          className={styles.enjoyFerasFera2}
+          src="/homePage/enjoyFeras/fera2.webp"
+          alt=""
+        />
+        <img
+          className={styles.enjoyFerasMobileFera2}
+          src="/homePage/enjoyFeras/mobileFera2.webp"
+          alt=""
+        />
+        <div className={styles.enjoyFerasMain}>
+          <h3>{lang.enjoyFeras.title}</h3>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/83HM1vGdp4I?si=BQMW_OuApZ1FIbQg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section className={styles.customStrategies}>
+        <img
+          className={styles.customStrategiasFera1}
+          src="/homePage/customStrategies/fera1.webp"
+          alt=""
+        />
+        <img
+          className={styles.customStrategiasFera2}
+          src="/homePage/customStrategies/downFeras1.webp"
+          alt=""
+        />
+        <img
+          className={styles.customStrategiasFera3}
+          src="/homePage/customStrategies/downFeras2.webp"
+          alt=""
+        />
+        <img
+          className={styles.customStrategiasTrophy}
+          src="/homePage/customStrategies/trophy.webp"
+          alt=""
+        />
+        <img
+          className={styles.customStrategiasMobileFera1}
+          src="/homePage/customStrategies/mobileFera1.png"
+          alt=""
+        />
+        <img
+          className={styles.customStrategiasMobileFera2}
+          src="/homePage/customStrategies/mobileFera2.png"
+          alt=""
+        />
+        <h3>{lang.customStrategies.title}</h3>
+        <div className={styles.customStrategiesContainer1}>
+          <p>{lang.customStrategies.text1}</p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/83HM1vGdp4I?si=BQMW_OuApZ1FIbQg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div className={styles.customStrategiesFloat}>
+          <p>{lang.customStrategies.text2}</p>
+        </div>
+      </section>
+      <section className={styles.ferapedia}>
+        <img
+          className={styles.ferapediaFera1}
+          src="/homePage/ferapedia/topFera1.webp"
+          alt=""
+        />
+        <img
+          className={styles.ferapediaFera2}
+          src="/homePage/ferapedia/midFera1.webp"
+          alt=""
+        />
+        <img
+          className={styles.ferapediaFera3}
+          src="/homePage/ferapedia/downFera1.webp"
+          alt=""
+        />
+        <img
+          className={styles.ferapediaFera4}
+          src="/homePage/ferapedia/downFera2.webp"
+          alt=""
+        />
+        <h3 className={styles.ferapediaTitle}>{lang.ferapedia.title}</h3>
+        <div className={styles.ferapediaContainer1}>
+          <div className={styles.ferapediaContainer1Left}>
+            <p>{lang.ferapedia.text1}</p>
+          </div>
+          <div className={styles.ferapediaContainer1Right}>
+            <img src="/homePage/ferapedia/ferapedia.webp" alt="" />
+          </div>
+        </div>
+        <p className={styles.ferapediaText1}>{lang.ferapedia.text2}</p>
+        <iframe
+          className={styles.ferapediaVideo}
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/83HM1vGdp4I?si=BQMW_OuApZ1FIbQg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
     </main>
   );
 };

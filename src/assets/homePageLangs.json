@@ -42,6 +42,19 @@
     "participateBattles": {
       "title": "Participa en épicas batallas por turnos",
       "text1": "Enfrenta a otros Feras en emocionantes combates por turnos y utiliza las habilidades únicas para cada uno para dominar la batalla."
+    },
+    "enjoyFeras": {
+      "title": "Disfruta de la emocion de la captura y agrega nuevos Feras a tu colección para crear un equipo imbatible."
+    },
+    "customStrategies": {
+      "title": "Personaliza tu estrategia y conviértete en un entrenador legendario",
+      "text1": "Elige entre diferentes árboles de habilidades para cada tipo de Fera y crea estrategias personalizadas.",
+      "text2": "Equipo a tu personaje con objetos que potencien a tus Feras en batalla y conviértelos en máquinas de guerra."
+    },
+    "ferapedia": {
+      "title": "Atrada a todos los Feras y completa la Ferapedia",
+      "text1": "Embárcate en una aventura épica como maestro Ferapedia y completa esta enciclopedia exhaustiva con Información sobre cada especie de Fera.",
+      "text2": "Tu viaje te llevará a los rincones más remotos del planeta, donde podrás descubrir y documentar a estas criaturas excepcionales."
     }
   }
 }
