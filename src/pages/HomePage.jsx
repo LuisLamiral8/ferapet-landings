@@ -1,6 +1,153 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./styles/homepage.module.scss";
+import "react-toastify/dist/ReactToastify.css";
+import ReCAPTCHA from "react-google-recaptcha";
+import { ToastContainer, toast } from "react-toastify";
+import axios from "axios";
+
 const HomePage = ({ lang }) => {
+  const [loader, setLoader] = useState(false);
+  const [emailCounter, setEmailCounter] = useState(0);
+  const [captchaState, setCaptchaState] = useState(true);
+  const [headerEmailInput, setHeaderEmailInput] = useState("");
+  const [footerEmailInput, setFooterEmailInput] = useState("");
+  const [modalKickstarter, setModalKickstarter] = useState(false);
+
+  function onChange(value) {
+    console.log("Captcha value:", value);
+    setCaptchaState(true);
+
+    if (isValidEmail(emailFront)) {
+      setInputSubmit(false);
+    }
+  }
+  function actualLanguage() {
+    switch (lang.id) {
+      case 1:
+        return "Español";
+      case 2:
+        return "Ingles";
+      case 3:
+        return "Portugues";
+      case 4:
+        return "Coreano";
+      case 5:
+        return "Japones";
+      case 6:
+        return "Aleman";
+      case 7:
+        return "Holandes";
+      case 8:
+        return "Ruso";
+      case 9:
+        return "Frances";
+      case 10:
+        return "Chino";
+      case 11:
+        return "Italiano";
+      default:
+        break;
+    }
+  }
+  const postEmail = (e, emailInput) => {
+    e.preventDefault();
+    if (captchaState && isValidEmail(emailInput)) {
+      axios
+        .post(
+          `https://starfish-app-licfp.ondigitalocean.app/ferapet/save`,
+          // `localhost:4000/ferapet/save`,
+          { email: emailInput, origin: actualLanguage() }
+        )
+        .then(() => {
+          getEmails();
+          toast.success(lang.toast.info1, {
+            position: "top-center",
+            autoClose: 2500,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
+          setTimeout(() => {
+            setModalKickstarter(true);
+          }, 1000);
+          setTimeout(() => {
+            window.location.href =
+              "https://www.kickstarter.com/projects/secretforest/secretforest";
+          }, 7500);
+          setFooterEmailInput("");
+          setHeaderEmailInput("");
+        })
+        .catch((error) => {
+          console.error("Error al enviar el email:", error);
+          toast.error(lang.toast.emailRegistered, {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
+        });
+    } else {
+      if (captchaState == false) {
+        toast.error(lang.toast.verifyCaptcha, {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
+      }
+      if (isValidEmail(emailInput) == false || emailInput == "") {
+        toast.error(lang.toast.emailWrong, {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
+      }
+    }
+  };
+  const getEmails = () => {
+    axios
+      .get(`https://starfish-app-licfp.ondigitalocean.app/ferapet/count`)
+      // .get(`localhost:4000/ferapet/get`)
+      .then((response) => {
+        setEmailCounter(response.data.emailCuantity);
+      });
+  };
+  const isValidEmail = (email) => {
+    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    return emailPattern.test(email);
+  };
+  function onChange(value) {
+    console.log("Captcha value:", value);
+    setCaptchaState(true);
+
+    if (isValidEmail(emailFront)) {
+      setInputSubmit(false);
+    }
+  }
+  useEffect(() => {
+    getEmails();
+    setTimeout(() => {
+      setLoader(false);
+    }, 3000);
+    console.log("actualLenguaje: ", actualLanguage());
+  }, []);
+
   console.log("Lang: ", lang);
   return (
     <main className={styles.container}>
@@ -368,6 +515,116 @@ const HomePage = ({ lang }) => {
           allowfullscreen
         ></iframe>
       </section>
+      <section className={styles.universeFera}>
+        <h3>{lang.universeFera.title}</h3>
+        <div className={styles.universeFeraContainer}>
+          <div className={styles.universeFeraSectionTitle}>
+            <h4>{lang.universeFera.subtitle1}</h4>
+            <div className={styles.universeFeraSectionSeparator}></div>
+          </div>
+          <div className={styles.universeFeraSectionMain}>
+            <div className={styles.universeFeraSectionLeft}>
+              <p>{lang.universeFera.text1}</p>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/83HM1vGdp4I?si=BQMW_OuApZ1FIbQg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div className={styles.universeFeraSectionRight}>
+              <img src="/homePage/universeFera/fera1.webp" alt="" />
+            </div>
+          </div>
+        </div>
+        <div className={styles.universeFeraContainer}>
+          <div className={styles.universeFeraSectionTitle}>
+            <h4>{lang.universeFera.subtitle2}</h4>
+            <div className={styles.universeFeraSectionSeparator}></div>
+          </div>
+          <div className={styles.universeFeraSectionMain}>
+            <div className={styles.universeFeraSectionLeft}>
+              <p>{lang.universeFera.text2}</p>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/83HM1vGdp4I?si=BQMW_OuApZ1FIbQg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div className={styles.universeFeraSectionRight}>
+              <img src="/homePage/universeFera/fera2.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={styles.strengthFeras}>
+        <img
+          className={styles.strengthFera}
+          src="/homePage/strengthFeras/fera1.webp"
+          alt=""
+        />
+        <h3 className={styles.strengthFerasTitle}>{lang.getReady.title1}</h3>
+        <div className={styles.strengthFerasSeparator}></div>
+        <p className={styles.strengthFerasText1}>{lang.getReady.text1}</p>
+        <iframe
+          className={styles.strengthFerasVideo}
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/83HM1vGdp4I?si=BQMW_OuApZ1FIbQg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section className={styles.getReady}>
+        <img
+          className={styles.getReadyFera1}
+          src="/homePage/getReady/downFera1.webp"
+          alt=""
+        />
+        <img
+          className={styles.getReadyFera2}
+          src="/homePage/getReady/downFera2.webp"
+          alt=""
+        />
+        <h3 className={styles.getReadyTitle}>{lang.getReady.title2}</h3>
+        <p className={styles.getReadySubtitle}>{lang.getReady.subtitle}</p>
+        <div className={styles.getReadyForm}>
+          <span>{lang.getReady.label}</span>
+          <ReCAPTCHA
+            size="normal"
+            className={styles.headerCaptcha}
+            sitekey="6LffkPUpAAAAAFz29HWVDFmBumIYm_DMCcb1V2I3"
+            onChange={onChange}
+          />
+          <div className={styles.getReadyInput}>
+            <input type="text" placeholder={lang.getReady.placeholder} />
+            <button>{lang.getReady.signIn}</button>
+          </div>
+        </div>
+      </section>
+      <footer className={styles.footer}>
+        <div className={styles.footerLeft}>
+          <img src="/homePage/footer/zelcar.webp" alt="" />
+          <img src="/homePage/footer/ferapet.webp" alt="" />
+        </div>
+        <div className={styles.footerRight}>
+          <a href="#">{lang.footer.termsConditions}</a>
+          <a href="#">{lang.footer.privacyPolicy}</a>
+          <a href="#">{lang.footer.cookiesPolicy}</a>
+        </div>
+      </footer>
     </main>
   );
 };

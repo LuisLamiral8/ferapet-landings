@@ -737,6 +737,245 @@
       z-index: 4;
     }
   }
+  .universeFera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../../../public/homePage/universeFera/bg.webp");
+    background-position: center;
+    background-size: cover;
+    font-family: Eras Bold;
+    text-align: center;
+    padding-top: 4vw;
+    h3 {
+      font-size: 6vw;
+    }
+    .universeFeraContainer {
+      margin-top: 4vw;
+      .universeFeraSectionTitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h4 {
+          font-size: 4vw;
+        }
+        .universeFeraSectionSeparator {
+          margin-top: 0.5vw;
+          width: 40%;
+          height: 2px;
+          background-color: white;
+        }
+      }
+      .universeFeraSectionMain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 95%;
+        margin: 0 auto;
+        .universeFeraSectionLeft {
+          width: 60%;
+          margin-top: 2.5vw;
+          p {
+            font-size: 3vw;
+            font-family: Eras Medium;
+            font-weight: 500;
+            margin-bottom: 2vw;
+          }
+          iframe {
+            width: 70%;
+            height: 20vw;
+          }
+        }
+        .universeFeraSectionRight {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 40%;
+          margin: 0 auto;
+          img {
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+  .strengthFeras {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../../../public/homePage/strengthFeras/bg.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 2vw;
+    .strengthFerasTitle {
+      font-size: 6vw;
+      z-index: 4;
+      text-align: center;
+    }
+    .strengthFerasSeparator {
+      width: 50%;
+      margin: 1vw 0 2vw 0;
+      height: 2px;
+      background-color: white;
+      z-index: 4;
+    }
+    .strengthFerasText1 {
+      font-family: Eras Medium;
+      font-weight: 100;
+      font-size: 4vw;
+      width: 80%;
+      z-index: 4;
+      text-align: center;
+    }
+    .strengthFera {
+      position: absolute;
+      top: 16vw;
+      left: initial;
+      right: initial;
+      width: 28vw;
+      z-index: 2;
+    }
+    .strengthFerasVideo {
+      width: 60%;
+      height: 30vw;
+      margin: 20vw 0 1vw 0;
+      z-index: 4;
+    }
+  }
+  .getReady {
+    // background-image: url("../../../public/homePage/getReady/bg.webp");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Eras Bold;
+    text-align: center;
+    position: relative;
+    padding: 15vw 0 15vw 0vw;
+    .getReadyFera1 {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 20vw;
+    }
+    .getReadyFera2 {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 25vw;
+    }
+    .getReadyTitle {
+      font-size: 4vw;
+      margin-bottom: 5vw;
+    }
+    .getReadySubtitle {
+      font-size: 3vw;
+    }
+    .getReadyForm {
+      width: 45%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      margin: 1vw 0;
+      span {
+        font-size: 2vw;
+        font-family: Eras Light;
+        font-weight: 900;
+      }
+      .getReadyInput {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // height: 2.5vw;
+        height: 50px;
+        input {
+          width: 80%;
+          height: 100%;
+          border: none;
+          border-radius: 10px 0 0 10px;
+          padding-left: 10px;
+          color: black;
+          &:focus {
+            outline: none;
+          }
+        }
+        button {
+          width: 20%;
+          height: 100%;
+          background-color: #012988;
+          border: none;
+          cursor: pointer;
+          transition: all 250ms;
+          color: white;
+          font-family: Eras Bold;
+          font-weight: 900;
+          border-radius: 0 10px 10px 0;
+          font-size: 1.2vw;
+          &:hover {
+            background-color: #092463;
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    background-color: white;
+    color: black;
+    font-family: Eras Bold;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 5vw 0 1vw 0;
+    .footerLeft {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      img {
+        width: 18vw;
+        &:first-child {
+          width: 13vw;
+        }
+      }
+    }
+    .footerRight {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      gap: 20px;
+      a {
+        text-decoration: none;
+        // font-size: 1.2vw;}
+        font-size: 25px;
+
+        color: #09013d;
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
 @media (max-width: 1550px) {
   .container {
@@ -846,6 +1085,24 @@
         margin-bottom: -50px;
       }
     }
+    .getReady {
+      .getReadyForm {
+        width: 50%;
+        .getReadyInput {
+          button {
+            width: 30%;
+            font-size: 1.5vw;
+          }
+        }
+      }
+    }
+    .footer {
+      .footerRight {
+        a {
+          font-size: 2vw;
+        }
+      }
+    }
   }
 }
 @media (max-width: 900px) {
@@ -889,6 +1146,15 @@
     }
     .ferapedia {
       padding-bottom: 50px;
+    }
+    .getReady {
+      .getReadyForm {
+        .getReadyInput {
+          button {
+            font-size: 2vw;
+          }
+        }
+      }
     }
   }
 }
@@ -1289,7 +1555,8 @@
         width: 50vw;
         right: -25vw;
       }
-      .ferapediaFera3, .ferapediaFera4{
+      .ferapediaFera3,
+      .ferapediaFera4 {
         display: none;
       }
       .ferapediaTitle {
@@ -1312,15 +1579,40 @@
           width: 90%;
         }
       }
-      .ferapediaText1{
+      .ferapediaText1 {
         font-size: 7vw;
         width: 90%;
         margin: 6vw auto 0 auto;
       }
-      .ferapediaVideo{
+      .ferapediaVideo {
         width: 90%;
         height: 45vw;
         margin: 5vw 0 3vw 0;
+      }
+    }
+    .strengthFeras{
+      background-position: center 20%;
+      background-size: initial;
+    }
+    .footer {
+      flex-direction: column;
+      .footerLeft {
+        margin-top: 5vw;
+        width: 90%;
+        img {
+          width: 40%;
+          &:first-child {
+            width: 30%;
+          }
+        }
+      }
+      .footerRight {
+        margin: 5vw 0;
+        width: 100%;
+        justify-content: space-evenly;
+        a {
+          font-size: 3.5vw;
+        }
       }
     }
   }
@@ -1391,6 +1683,23 @@
       }
       .customStrategiesFloat {
         margin-top: 85vw;
+      }
+    }
+    .strengthFeras {
+      .strengthFerasTitle {
+        font-size: 7vw;
+      }
+      .strengthFerasText1 {
+        font-size: 5vw;
+      }
+      .strengthFera {
+        top: 24vw;
+        width: 50vw;
+      }
+      .strengthFerasVideo {
+        margin-top: 40vw;
+        width: 90%;
+        height: 50vw;
       }
     }
   }

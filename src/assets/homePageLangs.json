@@ -55,6 +55,27 @@
       "title": "Atrada a todos los Feras y completa la Ferapedia",
       "text1": "Embárcate en una aventura épica como maestro Ferapedia y completa esta enciclopedia exhaustiva con Información sobre cada especie de Fera.",
       "text2": "Tu viaje te llevará a los rincones más remotos del planeta, donde podrás descubrir y documentar a estas criaturas excepcionales."
+    },
+    "universeFera": {
+      "title": "Tu guía indispensable para conquistar el universoFera",
+      "subtitle1": "Documenta cada especie",
+      "text1": "Aprende sobre las características, habilidades y hábitats de todas las criaturas Fera.",
+      "subtitle2": "Descubre los FeraHuevos",
+      "text2": "Eclosiona nuevos compañeros y expande tu colección."
+    },
+    "getReady": {
+      "title1": "Fortalece a tus Feras con runas",
+      "text1": "Desbloquea su máximo potencial y conviértelos en guerreros invencibles.",
+      "title2": "Explora un mundo lleno de sorpresas, captura a todos los Feras y conviértete en el mejor entrenador.",
+      "subtitle": "¿Estás listo para el desafío?",
+      "label": "Agrega tu email",
+      "placeholder": "email@email.com",
+      "signIn": "Registrarse"
+    },
+    "footer": {
+      "termsConditions": "Terms & Conditions",
+      "privacyPolicy": "Privacy Policy",
+      "cookiesPolicy": "Cookies Policy"
     }
   }
 }
