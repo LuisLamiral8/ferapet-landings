@@ -598,6 +598,11 @@ const HomePage = ({ lang }) => {
           src="/homePage/getReady/downFera2.webp"
           alt=""
         />
+        <img
+          className={styles.getReadyWave}
+          src="/homePage/getReady/wave.webp"
+          alt=""
+        />
         <h3 className={styles.getReadyTitle}>{lang.getReady.title2}</h3>
         <p className={styles.getReadySubtitle}>{lang.getReady.subtitle}</p>
         <div className={styles.getReadyForm}>

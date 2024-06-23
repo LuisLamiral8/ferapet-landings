@@ -812,6 +812,7 @@
     background-image: url("../../../public/homePage/strengthFeras/bg.webp");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
     padding-top: 2vw;
     .strengthFerasTitle {
@@ -836,7 +837,7 @@
     }
     .strengthFera {
       position: absolute;
-      top: 16vw;
+      top: 18vw;
       left: initial;
       right: initial;
       width: 28vw;
@@ -850,9 +851,9 @@
     }
   }
   .getReady {
-    // background-image: url("../../../public/homePage/getReady/bg.webp");
-    background-position: center;
-    background-size: cover;
+    background-image: url("../../../public/homePage/getReady/bg.webp");
+    background-position: center 0%;
+    background-size:cover;
     width: 100%;
     height: 100%;
     display: flex;
@@ -874,6 +875,11 @@
       right: 0;
       bottom: 0;
       width: 25vw;
+    }
+    .getReadyWave {
+      position: absolute;
+      bottom: -1px;
+      width: 100%;
     }
     .getReadyTitle {
       font-size: 4vw;
@@ -1483,7 +1489,9 @@
       }
     }
     .customStrategies {
-      background-position: center 20%;
+      background-image: url("../../../public/homePage/customStrategies/mobileBg.webp");
+      background-position: center 0%;
+      // background-position: center;
       background-size: initial;
       .customStrategiasFera1 {
         // background: red;
@@ -1590,9 +1598,77 @@
         margin: 5vw 0 3vw 0;
       }
     }
-    .strengthFeras{
-      background-position: center 20%;
-      background-size: initial;
+    .universeFera {
+      h3 {
+        font-size: 11vw;
+      }
+      .universeFeraContainer {
+        margin-top: 75px;
+        .universeFeraSectionTitle {
+          h4 {
+            font-size: 10vw;
+            font-weight: 1000;
+          }
+          .universeFeraSectionSeparator {
+            margin-top: 2vw;
+          }
+        }
+        .universeFeraSectionMain {
+          flex-direction: column;
+          .universeFeraSectionLeft {
+            // background: red;
+            width: 100%;
+            p {
+              font-size: 6vw;
+              font-family: Eras Light;
+              font-weight: 600;
+            }
+            iframe {
+              width: 90%;
+              height: 45vw;
+            }
+          }
+          .universeFeraSectionRight {
+            width: 100%;
+            margin: 20px 0 0 0;
+            img {
+              width: 60%;
+            }
+          }
+        }
+      }
+    }
+    .strengthFeras {
+      padding: 20px 0;
+    }
+    .getReady {
+      padding-top: 25px;
+      .getReadyFera1,
+      .getReadyFera2 {
+        display: none;
+      }
+      .getReadyTitle {
+        font-size: 6vw;
+        margin-bottom: 50px;
+        width: 90%;
+      }
+      .getReadySubtitle {
+        font-size: 9vw;
+        width: 90%;
+      }
+      .getReadyForm {
+        width: 95%;
+        margin-top: 5vw;
+        gap: 10px;
+
+        span {
+          font-size: 4vw;
+        }
+        .getReadyInput {
+          height: 40px;
+          width: 90%;
+        }
+      }
     }
     .footer {
       flex-direction: column;
@@ -1693,7 +1769,7 @@
         font-size: 5vw;
       }
       .strengthFera {
-        top: 24vw;
+        top: 27vw;
         width: 50vw;
       }
       .strengthFerasVideo {
