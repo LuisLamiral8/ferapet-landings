@@ -1,6 +1,25 @@
 {
   "es": {
     "id": 1,
+    "nav": {
+      "item1": "Inicio",
+      "item2": "Feracubo",
+      "item3": "Crianza",
+      "item4": "Profesiones",
+      "item5": "Combate",
+      "item6": "Ferapedia",
+      "item7": "Mundo"
+    },
+    "toast": {
+      "info1": "¡Gracias por registrarte!",
+      "info2": "¡Ahora regístrate en Kickstarter para estar entre los primeros en enterarte del lanzamiento de la campaña!",
+      "error": "Error interno del servidor",
+      "emailRegistered": "El correo electrónico ya está registrado",
+      "verifyCaptcha": "Por favor verifique con captcha",
+      "emailWrong": "El correo electrónico es incorrecto",
+      "counter1": "Únete a",
+      "counter2": "más personas!"
+    },
     "header": {
       "trailer": "Trailer"
     },

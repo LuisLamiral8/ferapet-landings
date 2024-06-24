@@ -4,6 +4,92 @@
   line-height: 0.85;
   overflow: hidden;
   color: white;
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    z-index: 8;
+    .desktopUl {
+      display: flex;
+      justify-content: flex-end;
+      gap: 1vw;
+      align-items: center;
+      width: 100%;
+      flex-direction: row;
+      height: 100%;
+      padding-right: 3vw;
+      li {
+        list-style: none;
+        padding: 5px 10px;
+        border-radius: 10px;
+        transition: all 250ms;
+        a {
+          transition: all 250ms;
+          color: white;
+          text-shadow: 3px 3px 10px black;
+          font-family: Eras Bold;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        &:hover {
+          background-color: white;
+          a {
+            text-shadow: none;
+            color: orange;
+          }
+        }
+      }
+    }
+    .mobileUl {
+      display: none;
+      background: rgba(0, 0, 0, 0.615);
+      position: absolute;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
+      width: 70%;
+      font-size: 4vw;
+      border-radius: 0 0 25px 25px;
+      border: 3px solid #ffffff;
+      border-top: none;
+      transform: translateY(-700px);
+      transition: all 250ms;
+
+      li {
+        list-style: none;
+        a {
+          text-decoration: none;
+          color: white;
+          text-shadow: 3px 3px 10px black;
+        }
+      }
+      height: 400px;
+    }
+    .ham {
+      display: none;
+      width: 60px;
+      height: 60px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      position: absolute;
+      right: 20px;
+      top: 10px;
+      svg {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
   .header {
     width: 100%;
     height: 100vh;
@@ -853,7 +939,7 @@
   .getReady {
     background-image: url("../../../public/homePage/getReady/bg.webp");
     background-position: center 0%;
-    background-size:cover;
+    background-size: cover;
     width: 100%;
     height: 100%;
     display: flex;
@@ -982,6 +1068,9 @@
       }
     }
   }
+}
+.activeNav {
+  transform: translateY(0) !important;
 }
 @media (max-width: 1550px) {
   .container {
@@ -1214,6 +1303,19 @@
 }
 @media (max-width: 720px) {
   .container {
+    .nav {
+      .desktopUl {
+        display: none;
+      }
+      .ham {
+        display: initial;
+      }
+
+      .mobileUl {
+        display: flex;
+      }
+    }
+
     .header {
       background-image: url("../../../public/homePage/header/mobileBg.webp");
       background-position: center;
@@ -1782,6 +1884,23 @@
 }
 @media (max-width: 420px) {
   .container {
+    .nav{
+      .ham{
+        width: 40px;
+        height: 40px;
+        right: 5px;
+        top: 5px;
+      }
+      .mobileUl{
+        width: 70%;
+        li{
+
+          a{
+            font-size: 7vw;
+          }
+        }
+      }
+    }
     .embarkAdventure {
       .embarkAdventureFera1 {
         width: 215px;

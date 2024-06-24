@@ -9,10 +9,9 @@ const HomePage = ({ lang }) => {
   const [loader, setLoader] = useState(false);
   const [emailCounter, setEmailCounter] = useState(0);
   const [captchaState, setCaptchaState] = useState(true);
-  const [headerEmailInput, setHeaderEmailInput] = useState("");
   const [footerEmailInput, setFooterEmailInput] = useState("");
   const [modalKickstarter, setModalKickstarter] = useState(false);
-
+  const [activeNav, setActiveNav] = useState(false);
   function onChange(value) {
     console.log("Captcha value:", value);
     setCaptchaState(true);
@@ -78,7 +77,6 @@ const HomePage = ({ lang }) => {
               "https://www.kickstarter.com/projects/secretforest/secretforest";
           }, 7500);
           setFooterEmailInput("");
-          setHeaderEmailInput("");
         })
         .catch((error) => {
           console.error("Error al enviar el email:", error);
@@ -145,12 +143,164 @@ const HomePage = ({ lang }) => {
     setTimeout(() => {
       setLoader(false);
     }, 3000);
-    console.log("actualLenguaje: ", actualLanguage());
+    // console.log("actualLenguaje: ", actualLanguage());
   }, []);
 
-  console.log("Lang: ", lang);
+  // console.log("Lang: ", lang);
   return (
     <main className={styles.container}>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
+      {modalKickstarter == true && (
+        <>
+          <div className={styles.kickstarterXl}>
+            <div>
+              <img loading="lazy" src="/landingPage/modal/xl.jpg" alt="" />
+              <button onClick={() => setModalKickstarter(false)}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="#ffff"
+                    d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div className={styles.kickstarterMd}>
+            <div>
+              <img loading="lazy" src="/landingPage/modal/md.jpg" alt="" />
+              <button onClick={() => setModalKickstarter(false)}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="#ffff"
+                    d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div className={styles.kickstarterXs}>
+            <div>
+              <img loading="lazy" src="/landingPage/modal/xs.jpg" alt="" />
+              <button onClick={() => setModalKickstarter(false)}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="#ffff"
+                    d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </>
+      )}
+      <nav className={styles.nav}>
+        <ul className={styles.desktopUl}>
+          <li>
+            <a href="#">{lang.nav.item1}</a>
+          </li>
+          <li>
+            <a href="#">{lang.nav.item2}</a>
+          </li>
+          <li>
+            <a href="#">{lang.nav.item3}</a>
+          </li>
+          <li>
+            <a href="#">{lang.nav.item4}</a>
+          </li>
+          <li>
+            <a href="#">{lang.nav.item5}</a>
+          </li>
+          <li>
+            <a href="#">{lang.nav.item6}</a>
+          </li>
+          <li>
+            <a href="#">{lang.nav.item7}</a>
+          </li>
+        </ul>
+        {/* <ul className={styles.mobileUl}> */}
+        <ul className={activeNav == true ? `${styles.mobileUl} ${styles.activeNav}` : `${styles.mobileUl}`}>
+
+          <li>
+            <a href="#" onClick={() => setActiveNav(false)}>
+              {lang.nav.item1}
+            </a>
+          </li>
+          <li>
+            <a href="#" onClick={() => setActiveNav(false)}>
+              {lang.nav.item2}
+            </a>
+          </li>
+          <li>
+            <a href="#" onClick={() => setActiveNav(false)}>
+              {lang.nav.item3}
+            </a>
+          </li>
+          <li>
+            <a href="#" onClick={() => setActiveNav(false)}>
+              {lang.nav.item4}
+            </a>
+          </li>
+          <li>
+            <a href="#" onClick={() => setActiveNav(false)}>
+              {lang.nav.item5}
+            </a>
+          </li>
+          <li>
+            <a href="#" onClick={() => setActiveNav(false)}>
+              {lang.nav.item6}
+            </a>
+          </li>
+          <li>
+            <a href="#" onClick={() => setActiveNav(false)}>
+              {lang.nav.item7}
+            </a>
+          </li>
+        </ul>
+        <button onClick={() => setActiveNav(!activeNav)} className={styles.ham}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1em"
+            height="1em"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="#ffff"
+              d="M12 22c-4.714 0-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12s0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22"
+              opacity="0.5"
+            />
+            <path
+              fill="#ffff"
+              d="M18.75 8a.75.75 0 0 1-.75.75H6a.75.75 0 0 1 0-1.5h12a.75.75 0 0 1 .75.75m0 4a.75.75 0 0 1-.75.75H6a.75.75 0 0 1 0-1.5h12a.75.75 0 0 1 .75.75m0 4a.75.75 0 0 1-.75.75H6a.75.75 0 0 1 0-1.5h12a.75.75 0 0 1 .75.75"
+            />
+          </svg>
+        </button>
+      </nav>
       <header className={styles.header}>
         <img
           className={styles.headerFera}
@@ -614,9 +764,19 @@ const HomePage = ({ lang }) => {
             onChange={onChange}
           />
           <div className={styles.getReadyInput}>
-            <input type="text" placeholder={lang.getReady.placeholder} />
-            <button>{lang.getReady.signIn}</button>
+            <input
+              value={footerEmailInput}
+              onChange={(e) => setFooterEmailInput(e.target.value)}
+              type="text"
+              placeholder={lang.getReady.placeholder}
+            />
+            <button onClick={(e) => postEmail(e, footerEmailInput)}>
+              {lang.getReady.signIn}
+            </button>
           </div>
+          <span>
+            {lang.toast.counter1} {emailCounter} {lang.toast.counter2}
+          </span>
         </div>
       </section>
       <footer className={styles.footer}>
