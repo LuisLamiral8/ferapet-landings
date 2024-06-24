@@ -225,25 +225,25 @@ const HomePage = ({ lang }) => {
       <nav className={styles.nav}>
         <ul className={styles.desktopUl}>
           <li>
-            <a href="#">{lang.nav.item1}</a>
+            <a href="#home">{lang.nav.item1}</a>
           </li>
           <li>
-            <a href="#">{lang.nav.item2}</a>
+            <a href="#feracube">{lang.nav.item2}</a>
           </li>
           <li>
-            <a href="#">{lang.nav.item3}</a>
+            <a href="#breeding">{lang.nav.item3}</a>
           </li>
           <li>
-            <a href="#">{lang.nav.item4}</a>
+            <a href="#professions">{lang.nav.item4}</a>
           </li>
           <li>
-            <a href="#">{lang.nav.item5}</a>
+            <a href="#battle">{lang.nav.item5}</a>
           </li>
           <li>
-            <a href="#">{lang.nav.item6}</a>
+            <a href="#ferapedia">{lang.nav.item6}</a>
           </li>
           <li>
-            <a href="#">{lang.nav.item7}</a>
+            <a href="#world">{lang.nav.item7}</a>
           </li>
           <li onClick={() => setActiveLang(!activeLang)}>
             <a href="#">{lang.nav.item8}</a>
@@ -257,7 +257,6 @@ const HomePage = ({ lang }) => {
             </svg>
           </li>
         </ul>
-        {/* <ul className={styles.mobileUl}> */}
         <ul
           className={
             activeNav == true
@@ -266,37 +265,37 @@ const HomePage = ({ lang }) => {
           }
         >
           <li>
-            <a href="#" onClick={() => setActiveNav(false)}>
+            <a href="#home" onClick={() => setActiveNav(false)}>
               {lang.nav.item1}
             </a>
           </li>
           <li>
-            <a href="#" onClick={() => setActiveNav(false)}>
+            <a href="#feracube" onClick={() => setActiveNav(false)}>
               {lang.nav.item2}
             </a>
           </li>
           <li>
-            <a href="#" onClick={() => setActiveNav(false)}>
+            <a href="#breeding" onClick={() => setActiveNav(false)}>
               {lang.nav.item3}
             </a>
           </li>
           <li>
-            <a href="#" onClick={() => setActiveNav(false)}>
+            <a href="#professions" onClick={() => setActiveNav(false)}>
               {lang.nav.item4}
             </a>
           </li>
           <li>
-            <a href="#" onClick={() => setActiveNav(false)}>
+            <a href="#battle" onClick={() => setActiveNav(false)}>
               {lang.nav.item5}
             </a>
           </li>
           <li>
-            <a href="#" onClick={() => setActiveNav(false)}>
+            <a href="#ferapedia" onClick={() => setActiveNav(false)}>
               {lang.nav.item6}
             </a>
           </li>
           <li>
-            <a href="#" onClick={() => setActiveNav(false)}>
+            <a href="#world" onClick={() => setActiveNav(false)}>
               {lang.nav.item7}
             </a>
           </li>
@@ -473,7 +472,7 @@ const HomePage = ({ lang }) => {
           </svg>
         </button>
       </nav>
-      <header className={styles.header}>
+      <header id="home" className={styles.header}>
         <img
           className={styles.headerFera}
           src="/homePage/header/feras.webp"
@@ -532,7 +531,7 @@ const HomePage = ({ lang }) => {
         />
         <h3>{lang.discoverVillages.text}</h3>
       </section>
-      <section className={styles.dominateCreatures}>
+      <section id="feracube" className={styles.dominateCreatures}>
         <img
           className={styles.dominateCreaturesFera1}
           src="/homePage/dominateCreatures/fera1.webp"
@@ -591,7 +590,7 @@ const HomePage = ({ lang }) => {
           {lang.dominateCreatures.text4Final}
         </p>
       </section>
-      <section className={styles.raiseCreatures}>
+      <section id="breeding" className={styles.raiseCreatures}>
         <h4 className={styles.raiseCreaturesTitle}>
           {lang.raiseCreatures.title}
         </h4>
@@ -626,7 +625,7 @@ const HomePage = ({ lang }) => {
           <span>{lang.levelUpFeras.tier2}</span>
         </div>
       </section>
-      <section className={styles.farmResources}>
+      <section id="professions" className={styles.farmResources}>
         <img
           className={styles.farmResourcesFera1}
           src="/homePage/farmResources/fera1.webp"
@@ -688,7 +687,7 @@ const HomePage = ({ lang }) => {
         ></iframe>
         <p className={styles.farmResourcesText3}>{lang.farmResources.text3}</p>
       </section>
-      <section className={styles.participateBattles}>
+      <section id="battle" className={styles.participateBattles}>
         <h3 className={styles.participateBattlesTitle}>
           {lang.participateBattles.title}
         </h3>
@@ -794,7 +793,7 @@ const HomePage = ({ lang }) => {
           <p>{lang.customStrategies.text2}</p>
         </div>
       </section>
-      <section className={styles.ferapedia}>
+      <section id="ferapedia" className={styles.ferapedia}>
         <img
           className={styles.ferapediaFera1}
           src="/homePage/ferapedia/topFera1.webp"
@@ -837,7 +836,7 @@ const HomePage = ({ lang }) => {
           allowfullscreen
         ></iframe>
       </section>
-      <section className={styles.universeFera}>
+      <section id="world" className={styles.universeFera}>
         <h3>{lang.universeFera.title}</h3>
         <div className={styles.universeFeraContainer}>
           <div className={styles.universeFeraSectionTitle}>
