@@ -1575,6 +1575,10 @@
       .raiseCreaturesMobileBreeding2 {
         display: flex;
       }
+      .raiseCreaturesMobileBreeding2{
+        margin-top: -100px;
+        margin-bottom: -40px;
+      }
       .raiseCreaturesEgg {
         // background: red;
         width: 95%;
@@ -2025,6 +2029,12 @@
       }
       h3 {
         font-size: 11vw;
+      }
+    }
+    .raiseCreatures{
+      .raiseCreaturesMobileBreeding2{
+        margin-top: -17vw;
+        margin-bottom: -40px;
       }
     }
     .dominateCreatures {
