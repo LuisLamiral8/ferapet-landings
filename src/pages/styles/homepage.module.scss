@@ -1991,16 +1991,18 @@
 @media (max-width: 420px) {
   .container {
     .nav {
-      .ham {
-        width: 40px;
-        height: 40px;
-        right: 5px;
-        top: 5px;
-      }
       .mobileUl {
         width: 70%;
         li {
           a {
+            font-size: 7vw;
+          }
+        }
+      }
+      .desktopLang{
+        width: 70%;
+        li{
+          a{
             font-size: 7vw;
           }
         }
