@@ -858,7 +858,7 @@ const HomePage = ({ lang }) => {
               ></iframe>
             </div>
             <div className={styles.universeFeraSectionRight}>
-              <img src="/homePage/universeFera/fera1.webp" alt="" />
+              <img className={styles.universeFeraImage1}src="/homePage/universeFera/fera1.webp" alt="" />
             </div>
           </div>
         </div>
