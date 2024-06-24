@@ -27,7 +27,11 @@
         list-style: none;
         padding: 5px 10px;
         border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         transition: all 250ms;
+        gap: 10px;
         a {
           transition: all 250ms;
           color: white;
@@ -36,11 +40,19 @@
           text-decoration: none;
           cursor: pointer;
         }
+        svg {
+          width: 25px;
+          height: 25px;
+          fill: white;
+        }
         &:hover {
           background-color: white;
           a {
             text-shadow: none;
             color: orange;
+          }
+          svg {
+            fill: orange;
           }
         }
       }
@@ -67,25 +79,82 @@
         list-style: none;
         a {
           text-decoration: none;
+          font-size: 3vw;
           color: white;
+          font-weight: 900;
+          font-family: Eras Bold;
           text-shadow: 3px 3px 10px black;
         }
       }
       height: 400px;
     }
+    .desktopLang {
+      background: rgba(0, 0, 0, 0.282);
+      position: absolute;
+      top: 75px;
+      border-radius: 25px 0 0 25px;
+      border-left: 3px solid white;
+      border-top: 3px solid white;
+      border-bottom: 3px solid white;
+      right: 0;
+      width: 350px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      transform: translateX(500px);
+      transition: all 250ms;
+      li {
+        padding: 5px 25px;
+        border-radius: 25px;
+        transition: all 250ms;
+        list-style: none;
+        a {
+          text-decoration: none;
+          color: white;
+          font-weight: 900;
+          font-family: Eras Bold;
+        }
+        &:hover {
+          background-color: white;
+          a {
+            text-shadow: none;
+            color: orange;
+          }
+        }
+      }
+    }
     .ham {
       display: none;
       width: 60px;
       height: 60px;
-      background-color: transparent;
+      background-color: rgba(255, 255, 255, 0.365);
       border: none;
+      border-radius: 100px;
       cursor: pointer;
       position: absolute;
       right: 20px;
       top: 10px;
       svg {
-        width: 100%;
-        height: 100%;
+        width: 50px;
+        height: 50px;
+      }
+    }
+    .langHam {
+      display: none;
+      width: 60px;
+      height: 60px;
+      background-color: rgba(255, 255, 255, 0.365);
+      border-radius: 100px;
+      border: none;
+      cursor: pointer;
+      position: absolute;
+      left: 20px;
+      top: 10px;
+      svg {
+        width: 50px;
+        height: 50px;
       }
     }
   }
@@ -1072,6 +1141,9 @@
 .activeNav {
   transform: translateY(0) !important;
 }
+.activeLang {
+  transform: translateX(0) !important;
+}
 @media (max-width: 1550px) {
   .container {
     .levelUpFeras {
@@ -1202,6 +1274,16 @@
 }
 @media (max-width: 900px) {
   .container {
+    .nav {
+      .desktopUl {
+        gap: 0;
+        li {
+          a {
+            font-size: 1.5vw;
+          }
+        }
+      }
+    }
     .dominateCreatures {
       background-position: center 40%;
       .dominateCreaturesFera1 {
@@ -1310,7 +1392,31 @@
       .ham {
         display: initial;
       }
-
+      .langHam {
+        display: initial;
+      }
+      .desktopLang {
+        transform: translateX(0);
+        left: initial;
+        right: initial;
+        border-top: none;
+        border-right: 3px solid white;
+        width: 65%;
+        border-radius: 0 0 25px 25px;
+        top: 0;
+        height: 500px;
+        background-color: rgba(0, 0, 0, 0.686);
+        transform: translateY(-700px);
+        li {
+          a {
+            font-size: 3vw;
+            text-shadow: 3px 3px 10px black;
+          }
+        }
+      }
+      .activeLang {
+        transform: translateY(0);
+      }
       .mobileUl {
         display: flex;
       }
@@ -1884,18 +1990,17 @@
 }
 @media (max-width: 420px) {
   .container {
-    .nav{
-      .ham{
+    .nav {
+      .ham {
         width: 40px;
         height: 40px;
         right: 5px;
         top: 5px;
       }
-      .mobileUl{
+      .mobileUl {
         width: 70%;
-        li{
-
-          a{
+        li {
+          a {
             font-size: 7vw;
           }
         }

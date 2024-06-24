@@ -8,7 +8,8 @@
       "item4": "Profesiones",
       "item5": "Combate",
       "item6": "Ferapedia",
-      "item7": "Mundo"
+      "item7": "Mundo",
+      "item8": "Lenguaje"
     },
     "toast": {
       "info1": "¡Gracias por registrarte!",
@@ -95,6 +96,996 @@
       "termsConditions": "Terms & Conditions",
       "privacyPolicy": "Privacy Policy",
       "cookiesPolicy": "Cookies Policy"
+    }
+  },
+  "en": {
+    "id": 2,
+    "nav": {
+      "item1": "Home",
+      "item2": "Feracube",
+      "item3": "Breeding",
+      "item4": "Professions",
+      "item5": "Combat",
+      "item6": "Ferapedia",
+      "item7": "World",
+      "item8": "Language"
+    },
+    "toast": {
+      "info1": "Thank you for registering!",
+      "info2": "Now sign up on Kickstarter to be among the first to know about the campaign launch!",
+      "error": "Internal server error",
+      "emailRegistered": "The email is already registered",
+      "verifyCaptcha": "Please verify with captcha",
+      "emailWrong": "The email is incorrect",
+      "counter1": "Join",
+      "counter2": "more people!"
+    },
+    "header": {
+      "trailer": "Trailer"
+    },
+    "embarkAdventure": {
+      "title": "Embark on an epic adventure with FeraPet!",
+      "text1": "Explore a limitless open world",
+      "text2": "Traverse vast landscapes and uncover hidden secrets in the wild."
+    },
+    "discoverVillages": {
+      "text": "Discover vibrant villages and useful structures"
+    },
+    "dominateCreatures": {
+      "title": "Dominate the fantastic creatures of FeraPet!",
+      "text1": "In FeraPet, capturing Feras goes beyond combat. Explore a world full of possibilities to catch these magical creatures and expand your collection.",
+      "text2": "Take advantage of their unawareness, apply the Feracube from behind or attract their attention with food or music.",
+      "text3": "Experiment with different Feracubes and techniques to discover the best strategy for each species.",
+      "text4Pre": "Luck also plays an important role, but",
+      "text4Bold1": "cunning",
+      "text4Mid": " and",
+      "text4Bold2": "planning",
+      "text4Final": "will give you the edge."
+    },
+    "raiseCreatures": {
+      "title": "Breed and reproduce your Feras to obtain new variations",
+      "text1": "Crossbreed your Feras to obtain new variations and expand your collection of incredible creatures.",
+      "text2": "Create the right conditions for successful Fera reproduction and discover new species."
+    },
+    "levelUpFeras": {
+      "title": "Level up your Feras with specific resources to increase their power and turn them into the best warriors on your team.",
+      "tier1": "TIER 1",
+      "tier2": "TIER 2"
+    },
+    "farmResources": {
+      "title": "Farm resources, create items, and experiment with different professions.",
+      "text1": "Get resources like berries, minerals, wood, and more with your Feras and explore your adventurous side.",
+      "text2": "Experiment with cooking, alchemy, tailoring, and blacksmithing to create unique items and personalize your experience.",
+      "text3": "Embark on a limitless adventure where cunning, creativity, and exploration will lead you to the pinnacle of success."
+    },
+    "participateBattles": {
+      "title": "Participate in epic turn-based battles",
+      "text1": "Face other Feras in exciting turn-based combats and use the unique abilities of each to dominate the battle."
+    },
+    "enjoyFeras": {
+      "title": "Enjoy the thrill of capturing and adding new Feras to your collection to create an unbeatable team."
+    },
+    "customStrategies": {
+      "title": "Customize your strategy and become a legendary trainer",
+      "text1": "Choose from different skill trees for each type of Fera and create customized strategies.",
+      "text2": "Equip your character with items that boost your Feras in battle and turn them into war machines."
+    },
+    "ferapedia": {
+      "title": "Capture all Feras and complete the Ferapedia",
+      "text1": "Embark on an epic adventure as a Ferapedia master and complete this exhaustive encyclopedia with information about each Fera species.",
+      "text2": "Your journey will take you to the most remote corners of the planet, where you can discover and document these exceptional creatures."
+    },
+    "universeFera": {
+      "title": "Your indispensable guide to conquering the Fera universe",
+      "subtitle1": "Document each species",
+      "text1": "Learn about the characteristics, abilities, and habitats of all Fera creatures.",
+      "subtitle2": "Discover the FeraEggs",
+      "text2": "Hatch new companions and expand your collection."
+    },
+    "getReady": {
+      "title1": "Strengthen your Feras with runes",
+      "text1": "Unlock their maximum potential and turn them into invincible warriors.",
+      "title2": "Explore a world full of surprises, capture all Feras, and become the best trainer.",
+      "subtitle": "Are you ready for the challenge?",
+      "label": "Add your email",
+      "placeholder": "email@email.com",
+      "signIn": "Sign Up"
+    },
+    "footer": {
+      "termsConditions": "Terms & Conditions",
+      "privacyPolicy": "Privacy Policy",
+      "cookiesPolicy": "Cookies Policy"
+    }
+  },
+  "br": {
+    "id": 3,
+    "nav": {
+      "item1": "Início",
+      "item2": "Feracubo",
+      "item3": "Criação",
+      "item4": "Profissões",
+      "item5": "Combate",
+      "item6": "Ferapédia",
+      "item7": "Mundo",
+      "item8": "Linguagem"
+    },
+    "toast": {
+      "info1": "Obrigado por se registrar!",
+      "info2": "Agora registre-se no Kickstarter para ser um dos primeiros a saber sobre o lançamento da campanha!",
+      "error": "Erro interno do servidor",
+      "emailRegistered": "O email já está registrado",
+      "verifyCaptcha": "Por favor, verifique com captcha",
+      "emailWrong": "O email está incorreto",
+      "counter1": "Junte-se a",
+      "counter2": "mais pessoas!"
+    },
+    "header": {
+      "trailer": "Trailer"
+    },
+    "embarkAdventure": {
+      "title": "Embarque em uma aventura épica com FeraPet!",
+      "text1": "Explore um mundo aberto sem limites",
+      "text2": "Percorra vastas paisagens e descubra segredos ocultos na natureza selvagem."
+    },
+    "discoverVillages": {
+      "text": "Descubra vilarejos vibrantes e estruturas úteis"
+    },
+    "dominateCreatures": {
+      "title": "Domine as criaturas fantásticas de FeraPet!",
+      "text1": "Em FeraPet, capturar Feras vai além do combate. Explore um mundo cheio de possibilidades para capturar essas criaturas mágicas e expandir sua coleção.",
+      "text2": "Aproveite sua desatenção, aplique o Feracubo por trás ou atraia sua atenção com comida ou música.",
+      "text3": "Experimente diferentes Feracubos e técnicas para descobrir a melhor estratégia para cada espécie.",
+      "text4Pre": "A sorte também desempenha um papel importante, mas a",
+      "text4Bold1": "astúcia",
+      "text4Mid": " e o ",
+      "text4Bold2": "planejamento",
+      "text4Final": "te darão a vantagem."
+    },
+    "raiseCreatures": {
+      "title": "Crie e reproduza suas Feras para obter novas variações",
+      "text1": "Cruze suas Feras para obter novas variações e expandir sua coleção de criaturas incríveis.",
+      "text2": "Crie as condições adequadas para que a reprodução entre Feras seja bem-sucedida e descubra novas espécies."
+    },
+    "levelUpFeras": {
+      "title": "Nivele suas Feras com recursos específicos para aumentar seu poder e transformá-los nos melhores guerreiros de sua equipe.",
+      "tier1": "NÍVEL 1",
+      "tier2": "NÍVEL 2"
+    },
+    "farmResources": {
+      "title": "Cultive recursos, crie itens e experimente diferentes profissões.",
+      "text1": "Obtenha recursos como bagas, minerais, madeira e mais com suas Feras e explore seu lado aventureiro.",
+      "text2": "Experimente com culinária, alquimia, costura e ferreiro para criar itens únicos e personalizar sua experiência.",
+      "text3": "Embarque em uma aventura sem limites onde a astúcia, a criatividade e a exploração te levarão ao topo do sucesso."
+    },
+    "participateBattles": {
+      "title": "Participe de batalhas épicas por turnos",
+      "text1": "Enfrente outras Feras em combates emocionantes por turnos e use as habilidades únicas de cada um para dominar a batalha."
+    },
+    "enjoyFeras": {
+      "title": "Desfrute da emoção da captura e adicione novas Feras à sua coleção para criar uma equipe imbatível."
+    },
+    "customStrategies": {
+      "title": "Personalize sua estratégia e torne-se um treinador lendário",
+      "text1": "Escolha entre diferentes árvores de habilidades para cada tipo de Fera e crie estratégias personalizadas.",
+      "text2": "Equipe seu personagem com itens que potencializem suas Feras na batalha e transforme-os em máquinas de guerra."
+    },
+    "ferapedia": {
+      "title": "Capture todas as Feras e complete a Ferapédia",
+      "text1": "Embarque em uma aventura épica como mestre Ferapédia e complete esta enciclopédia exaustiva com informações sobre cada espécie de Fera.",
+      "text2": "Sua jornada te levará aos cantos mais remotos do planeta, onde você poderá descobrir e documentar essas criaturas excepcionais."
+    },
+    "universeFera": {
+      "title": "Seu guia indispensável para conquistar o universo Fera",
+      "subtitle1": "Documente cada espécie",
+      "text1": "Aprenda sobre as características, habilidades e habitats de todas as criaturas Fera.",
+      "subtitle2": "Descubra os FeraOvos",
+      "text2": "Choque novos companheiros e expanda sua coleção."
+    },
+    "getReady": {
+      "title1": "Fortaleça suas Feras com runas",
+      "text1": "Desbloqueie seu máximo potencial e transforme-os em guerreiros invencíveis.",
+      "title2": "Explore um mundo cheio de surpresas, capture todas as Feras e torne-se o melhor treinador.",
+      "subtitle": "Você está pronto para o desafio?",
+      "label": "Adicione seu email",
+      "placeholder": "email@email.com",
+      "signIn": "Registrar"
+    },
+    "footer": {
+      "termsConditions": "Termos & Condições",
+      "privacyPolicy": "Política de Privacidade",
+      "cookiesPolicy": "Política de Cookies"
+    }
+  },
+  "ko": {
+    "id": 4,
+    "nav": {
+      "item1": "홈",
+      "item2": "페라큐브",
+      "item3": "번식",
+      "item4": "직업",
+      "item5": "전투",
+      "item6": "페라백과사전",
+      "item7": "세계",
+      "item8": "언어"
+    },
+    "toast": {
+      "info1": "가입해 주셔서 감사합니다!",
+      "info2": "이제 Kickstarter에 등록하여 캠페인 출시 소식을 가장 먼저 받아보세요!",
+      "error": "내부 서버 오류",
+      "emailRegistered": "이 이메일은 이미 등록되어 있습니다",
+      "verifyCaptcha": "캡차를 확인해주세요",
+      "emailWrong": "이메일이 잘못되었습니다",
+      "counter1": "에 가입하세요",
+      "counter2": "더 많은 사람들!"
+    },
+    "header": {
+      "trailer": "트레일러"
+    },
+    "embarkAdventure": {
+      "title": "FeraPet와 함께하는 에픽 어드벤처에 도전하세요!",
+      "text1": "제한 없는 오픈 월드를 탐험하세요",
+      "text2": "광활한 풍경을 가로지르고 야생에서 숨겨진 비밀을 발견하세요."
+    },
+    "discoverVillages": {
+      "text": "생동감 넘치는 마을과 유용한 구조물을 발견하세요"
+    },
+    "dominateCreatures": {
+      "title": "FeraPet의 환상적인 생물들을 지배하세요!",
+      "text1": "FeraPet에서 Feras를 잡는 것은 전투를 넘어섭니다. 이 마법 생물들을 잡아 컬렉션을 확장할 수 있는 가능성으로 가득 찬 세계를 탐험하세요.",
+      "text2": "그들의 무방비 상태를 이용하여 뒤에서 페라큐브를 적용하거나 음식이나 음악으로 주의를 끌어보세요.",
+      "text3": "다양한 페라큐브와 기술을 실험하여 각 종에 대한 최상의 전략을 발견하세요.",
+      "text4Pre": "운도 중요한 역할을 하지만",
+      "text4Bold1": "교활함",
+      "text4Mid": "과",
+      "text4Bold2": "계획",
+      "text4Final": "이 우위를 가져다 줄 것입니다."
+    },
+    "raiseCreatures": {
+      "title": "새로운 변종을 얻기 위해 Feras를 번식시키세요",
+      "text1": "Feras를 교배하여 새로운 변종을 얻고 놀라운 생물 컬렉션을 확장하세요.",
+      "text2": "Feras 번식이 성공하도록 적절한 조건을 만들어 새로운 종을 발견하세요."
+    },
+    "levelUpFeras": {
+      "title": "특정 자원으로 Feras의 레벨을 올려 전투팀의 최고의 전사로 만드세요.",
+      "tier1": "티어 1",
+      "tier2": "티어 2"
+    },
+    "farmResources": {
+      "title": "자원을 농사 짓고, 아이템을 만들고, 다양한 직업을 실험하세요.",
+      "text1": "Feras와 함께 베리, 광물, 나무 등의 자원을 얻고 모험심을 탐험하세요.",
+      "text2": "요리, 연금술, 재봉 및 대장장이를 실험하여 독특한 아이템을 만들고 경험을 맞춤화하세요.",
+      "text3": "교활함, 창의력, 탐험이 성공의 정점으로 이끄는 무한한 모험에 도전하세요."
+    },
+    "participateBattles": {
+      "title": "에픽 턴제 전투에 참여하세요",
+      "text1": "흥미진진한 턴제 전투에서 다른 Feras와 맞서고 각자의 고유한 능력을 사용하여 전투를 지배하세요."
+    },
+    "enjoyFeras": {
+      "title": "포획의 스릴을 즐기고 새로운 Feras를 컬렉션에 추가하여 무적의 팀을 만드세요."
+    },
+    "customStrategies": {
+      "title": "전략을 맞춤화하고 전설적인 트레이너가 되세요",
+      "text1": "각 Fera 유형에 대해 다양한 스킬 트리에서 선택하고 맞춤형 전략을 만드세요.",
+      "text2": "전투에서 Feras를 강화하는 아이템으로 캐릭터를 장착하고 전투 기계로 만드세요."
+    },
+    "ferapedia": {
+      "title": "모든 Feras를 포획하고 Ferapedia를 완성하세요",
+      "text1": "Ferapedia 마스터로서 에픽 어드벤처에 도전하고 각 Fera 종에 대한 정보를 담은 이 방대한 백과사전을 완성하세요.",
+      "text2": "여행은 행성의 가장 먼 곳으로 데려가고, 그곳에서 이 특별한 생물들을 발견하고 문서화할 수 있습니다."
+    },
+    "universeFera": {
+      "title": "Fera 우주 정복을 위한 필수 가이드",
+      "subtitle1": "각 종을 문서화하세요",
+      "text1": "모든 Fera 생물의 특성, 능력 및 서식지를 배우세요.",
+      "subtitle2": "FeraEggs를 발견하세요",
+      "text2": "새로운 동반자를 부화시켜 컬렉션을 확장하세요."
+    },
+    "getReady": {
+      "title1": "룬으로 Feras를 강화하세요",
+      "text1": "최대 잠재력을 잠금 해제하고 무적의 전사로 만드세요.",
+      "title2": "놀라움으로 가득 찬 세계를 탐험하고 모든 Feras를 잡아 최고의 트레이너가 되세요.",
+      "subtitle": "도전에 준비되셨습니까?",
+      "label": "이메일을 추가하세요",
+      "placeholder": "email@email.com",
+      "signIn": "가입"
+    },
+    "footer": {
+      "termsConditions": "이용 약관",
+      "privacyPolicy": "개인정보 보호정책",
+      "cookiesPolicy": "쿠키 정책"
+    }
+  },
+  "ja": {
+    "id": 5,
+    "nav": {
+      "item1": "ホーム",
+      "item2": "フェラクーブ",
+      "item3": "繁殖",
+      "item4": "職業",
+      "item5": "戦闘",
+      "item6": "フェラペディア",
+      "item7": "ワールド",
+      "item8": "言語"
+    },
+    "toast": {
+      "info1": "ご登録ありがとうございます！",
+      "info2": "Kickstarterに登録して、キャンペーン開始の情報をいち早く入手しましょう！",
+      "error": "内部サーバーエラー",
+      "emailRegistered": "このメールアドレスは既に登録されています",
+      "verifyCaptcha": "キャプチャを確認してください",
+      "emailWrong": "メールアドレスが正しくありません",
+      "counter1": "に参加",
+      "counter2": "他の多くの人たち！"
+    },
+    "header": {
+      "trailer": "トレーラー"
+    },
+    "embarkAdventure": {
+      "title": "FeraPetと共に壮大な冒険に出よう！",
+      "text1": "無限のオープンワールドを探索しよう",
+      "text2": "広大な風景を横断し、野生の中に隠された秘密を発見しよう。"
+    },
+    "discoverVillages": {
+      "text": "活気ある村や役立つ建物を発見しよう"
+    },
+    "dominateCreatures": {
+      "title": "FeraPetの幻想的な生き物を支配しよう！",
+      "text1": "FeraPetでは、Ferasの捕獲は戦闘を超えます。これらの魔法の生き物を捕らえてコレクションを拡大するための可能性に満ちた世界を探検しよう。",
+      "text2": "無防備な状態を利用して背後からフェラクーブを適用するか、食べ物や音楽で注意を引こう。",
+      "text3": "さまざまなフェラクーブと技術を試して、各種に最適な戦略を見つけよう。",
+      "text4Pre": "運も重要な役割を果たしますが、",
+      "text4Bold1": "狡猾さ",
+      "text4Mid": "と",
+      "text4Bold2": "計画",
+      "text4Final": "があなたに優位をもたらします。"
+    },
+    "raiseCreatures": {
+      "title": "新しいバリエーションを得るためにFerasを育てて繁殖させよう",
+      "text1": "Ferasを交配させて新しいバリエーションを得て、素晴らしい生き物のコレクションを拡大しよう。",
+      "text2": "Ferasの繁殖が成功するための適切な条件を作り、新しい種を発見しよう。"
+    },
+    "levelUpFeras": {
+      "title": "特定の資源でFerasのレベルを上げ、チームの最高の戦士にしよう。",
+      "tier1": "ティア 1",
+      "tier2": "ティア 2"
+    },
+    "farmResources": {
+      "title": "資源を収集し、アイテムを作成し、さまざまな職業を試そう。",
+      "text1": "ベリー、鉱石、木材などの資源をFerasと共に入手し、冒険心を探求しよう。",
+      "text2": "料理、錬金術、裁縫、大工を試して、ユニークなアイテムを作り、体験をカスタマイズしよう。",
+      "text3": "狡猾さ、創造力、探検が成功の頂点に導く無限の冒険に挑戦しよう。"
+    },
+    "participateBattles": {
+      "title": "壮大なターン制バトルに参加しよう",
+      "text1": "他のFerasとターン制のエキサイティングなバトルで対決し、それぞれのユニークなスキルを使って戦いを支配しよう。"
+    },
+    "enjoyFeras": {
+      "title": "捕獲のスリルを楽しみ、新しいFerasをコレクションに追加して無敵のチームを作ろう。"
+    },
+    "customStrategies": {
+      "title": "戦略をカスタマイズして伝説のトレーナーになろう",
+      "text1": "各Feraタイプに応じたさまざまなスキルツリーを選び、カスタマイズされた戦略を作成しよう。",
+      "text2": "戦闘でFerasを強化するアイテムでキャラクターを装備し、戦闘マシンにしよう。"
+    },
+    "ferapedia": {
+      "title": "すべてのFerasを捕まえてフェラペディアを完成させよう",
+      "text1": "フェラペディアのマスターとして壮大な冒険に出て、各Fera種に関する情報を含むこの詳細な百科事典を完成させよう。",
+      "text2": "旅は惑星の最も遠い場所へとあなたを連れて行き、そこでこれらの特別な生き物を発見し、記録することができます。"
+    },
+    "universeFera": {
+      "title": "Fera宇宙を征服するための必須ガイド",
+      "subtitle1": "各種を記録しよう",
+      "text1": "すべてのFera生物の特性、能力、および生息地について学ぼう。",
+      "subtitle2": "Feraエッグを発見しよう",
+      "text2": "新しい仲間を孵化させてコレクションを拡大しよう。"
+    },
+    "getReady": {
+      "title1": "ルーンでFerasを強化しよう",
+      "text1": "最大の可能性を解き放ち、無敵の戦士にしよう。",
+      "title2": "驚きに満ちた世界を探索し、すべてのFerasを捕まえて最高のトレーナーになろう。",
+      "subtitle": "挑戦に備えていますか？",
+      "label": "メールアドレスを追加",
+      "placeholder": "email@email.com",
+      "signIn": "登録"
+    },
+    "footer": {
+      "termsConditions": "利用規約",
+      "privacyPolicy": "プライバシーポリシー",
+      "cookiesPolicy": "クッキーポリシー"
+    }
+  },
+  "de": {
+    "id": 6,
+    "nav": {
+      "item1": "Startseite",
+      "item2": "Feracube",
+      "item3": "Zucht",
+      "item4": "Berufe",
+      "item5": "Kampf",
+      "item6": "Ferapedia",
+      "item7": "Welt",
+      "item8": "Sprache"
+    },
+    "toast": {
+      "info1": "Danke für Ihre Anmeldung!",
+      "info2": "Registrieren Sie sich jetzt bei Kickstarter, um als Erster über den Start der Kampagne informiert zu werden!",
+      "error": "Interner Serverfehler",
+      "emailRegistered": "Die E-Mail-Adresse ist bereits registriert",
+      "verifyCaptcha": "Bitte verifizieren Sie das Captcha",
+      "emailWrong": "Die E-Mail-Adresse ist falsch",
+      "counter1": "Treten Sie",
+      "counter2": "weiteren Personen bei!"
+    },
+    "header": {
+      "trailer": "Trailer"
+    },
+    "embarkAdventure": {
+      "title": "Begib dich auf ein episches Abenteuer mit FeraPet!",
+      "text1": "Erkunde eine grenzenlose offene Welt",
+      "text2": "Durchquere weite Landschaften und entdecke versteckte Geheimnisse in der Wildnis."
+    },
+    "discoverVillages": {
+      "text": "Entdecke lebendige Dörfer und nützliche Strukturen"
+    },
+    "dominateCreatures": {
+      "title": "Beherrsche die fantastischen Kreaturen von FeraPet!",
+      "text1": "In FeraPet geht das Einfangen von Feras über den Kampf hinaus. Erkunde eine Welt voller Möglichkeiten, diese magischen Kreaturen zu fangen und deine Sammlung zu erweitern.",
+      "text2": "Nutze ihre Unaufmerksamkeit, setze den Feracube von hinten ein oder lenke ihre Aufmerksamkeit mit Essen oder Musik auf dich.",
+      "text3": "Experimentiere mit verschiedenen Feracubes und Techniken, um die beste Strategie für jede Art zu entdecken.",
+      "text4Pre": "Glück spielt ebenfalls eine wichtige Rolle, aber",
+      "text4Bold1": "List",
+      "text4Mid": "und",
+      "text4Bold2": "Planung",
+      "text4Final": "verschaffen dir den Vorteil."
+    },
+    "raiseCreatures": {
+      "title": "Züchte und vermehr deine Feras, um neue Variationen zu erhalten",
+      "text1": "Kreuze deine Feras, um neue Variationen zu erhalten und deine Sammlung fantastischer Kreaturen zu erweitern.",
+      "text2": "Schaffe die richtigen Bedingungen, damit die Vermehrung der Feras erfolgreich ist und entdecke neue Arten."
+    },
+    "levelUpFeras": {
+      "title": "Steigere das Level deiner Feras mit spezifischen Ressourcen, um ihre Kraft zu erhöhen und sie zu den besten Kriegern deines Teams zu machen.",
+      "tier1": "STUFE 1",
+      "tier2": "STUFE 2"
+    },
+    "farmResources": {
+      "title": "Baue Ressourcen ab, stelle Gegenstände her und experimentiere mit verschiedenen Berufen.",
+      "text1": "Sammle Ressourcen wie Beeren, Mineralien, Holz und mehr mit deinen Feras und entdecke deine Abenteuerlust.",
+      "text2": "Experimentiere mit Kochen, Alchemie, Schneiderei und Schmiedekunst, um einzigartige Gegenstände zu kreieren und dein Erlebnis zu personalisieren.",
+      "text3": "Begib dich auf ein grenzenloses Abenteuer, bei dem List, Kreativität und Erkundung dich an die Spitze des Erfolgs führen."
+    },
+    "participateBattles": {
+      "title": "Nimm an epischen rundenbasierten Kämpfen teil",
+      "text1": "Stelle dich anderen Feras in spannenden rundenbasierten Kämpfen und nutze die einzigartigen Fähigkeiten jedes einzelnen, um die Schlacht zu dominieren."
+    },
+    "enjoyFeras": {
+      "title": "Erlebe den Nervenkitzel des Einfangens und füge deiner Sammlung neue Feras hinzu, um ein unschlagbares Team zu bilden."
+    },
+    "customStrategies": {
+      "title": "Personalisiere deine Strategie und werde ein legendärer Trainer",
+      "text1": "Wähle aus verschiedenen Fähigkeitsbäumen für jeden Fera-Typ und erstelle personalisierte Strategien.",
+      "text2": "Rüste deinen Charakter mit Gegenständen aus, die deine Feras im Kampf verstärken und sie zu Kampfmaschinen machen."
+    },
+    "ferapedia": {
+      "title": "Fange alle Feras und vervollständige die Ferapedia",
+      "text1": "Begib dich auf ein episches Abenteuer als Ferapedia-Meister und vervollständige dieses umfassende Lexikon mit Informationen über jede Fera-Art.",
+      "text2": "Deine Reise führt dich in die entlegensten Winkel des Planeten, wo du diese außergewöhnlichen Kreaturen entdecken und dokumentieren kannst."
+    },
+    "universeFera": {
+      "title": "Dein unverzichtbarer Leitfaden zur Eroberung des Fera-Universums",
+      "subtitle1": "Dokumentiere jede Art",
+      "text1": "Lerne die Eigenschaften, Fähigkeiten und Lebensräume aller Fera-Kreaturen kennen.",
+      "subtitle2": "Entdecke die FeraEier",
+      "text2": "Brüte neue Gefährten aus und erweitere deine Sammlung."
+    },
+    "getReady": {
+      "title1": "Stärke deine Feras mit Runen",
+      "text1": "Schalte ihr volles Potenzial frei und mache sie zu unbesiegbaren Kriegern.",
+      "title2": "Erkunde eine Welt voller Überraschungen, fange alle Feras und werde der beste Trainer.",
+      "subtitle": "Bist du bereit für die Herausforderung?",
+      "label": "Füge deine E-Mail hinzu",
+      "placeholder": "email@email.com",
+      "signIn": "Registrieren"
+    },
+    "footer": {
+      "termsConditions": "Geschäftsbedingungen",
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "cookiesPolicy": "Cookie-Richtlinie"
+    }
+  },
+  "nl": {
+    "id": 7,
+    "nav": {
+      "item1": "Home",
+      "item2": "Feracube",
+      "item3": "Fokken",
+      "item4": "Beroepen",
+      "item5": "Gevecht",
+      "item6": "Ferapedia",
+      "item7": "Wereld",
+      "item8": "Taal"
+    },
+    "toast": {
+      "info1": "Bedankt voor je registratie!",
+      "info2": "Registreer je nu bij Kickstarter om als een van de eersten op de hoogte te zijn van de lancering van de campagne!",
+      "error": "Interne serverfout",
+      "emailRegistered": "Het e-mailadres is al geregistreerd",
+      "verifyCaptcha": "Controleer met captcha",
+      "emailWrong": "Het e-mailadres is onjuist",
+      "counter1": "Sluit je aan bij",
+      "counter2": "andere mensen!"
+    },
+    "header": {
+      "trailer": "Trailer"
+    },
+    "embarkAdventure": {
+      "title": "Ga op een episch avontuur met FeraPet!",
+      "text1": "Verken een grenzeloze open wereld",
+      "text2": "Reis door uitgestrekte landschappen en ontdek verborgen geheimen in de wilde natuur."
+    },
+    "discoverVillages": {
+      "text": "Ontdek levendige dorpen en nuttige structuren"
+    },
+    "dominateCreatures": {
+      "title": "Beheers de fantastische wezens van FeraPet!",
+      "text1": "In FeraPet gaat het vangen van Feras verder dan het gevecht. Verken een wereld vol mogelijkheden om deze magische wezens te vangen en breid je collectie uit.",
+      "text2": "Profiteer van hun onoplettendheid, gebruik de Feracubo vanaf de achterkant of trek hun aandacht met eten of muziek.",
+      "text3": "Experimenteer met verschillende Feracubos en technieken om de beste strategie voor elke soort te ontdekken.",
+      "text4Pre": "Geluk speelt ook een belangrijke rol, maar",
+      "text4Bold1": "sluwheid",
+      "text4Mid": "en",
+      "text4Bold2": "planning",
+      "text4Final": "zullen je een voorsprong geven."
+    },
+    "raiseCreatures": {
+      "title": "Fok en kweek je Feras voor nieuwe variaties",
+      "text1": "Kruis je Feras voor nieuwe variaties en breid je collectie fantastische wezens uit.",
+      "text2": "Creëer de juiste omstandigheden voor succesvolle voortplanting van Feras en ontdek nieuwe soorten."
+    },
+    "levelUpFeras": {
+      "title": "Verhoog het niveau van je Feras met specifieke bronnen om hun kracht te vergroten en ze de beste strijders van je team te maken.",
+      "tier1": "NIVEAU 1",
+      "tier2": "NIVEAU 2"
+    },
+    "farmResources": {
+      "title": "Verzamel hulpbronnen, maak voorwerpen en experimenteer met verschillende beroepen.",
+      "text1": "Verkrijg hulpbronnen zoals bessen, mineralen, hout en meer met je Feras en ontdek je avontuurlijke kant.",
+      "text2": "Experimenteer met koken, alchemie, mode en smeedkunst om unieke voorwerpen te creëren en je ervaring aan te passen.",
+      "text3": "Ga op een grenzeloos avontuur waar sluwheid, creativiteit en exploratie je naar succes leiden."
+    },
+    "participateBattles": {
+      "title": "Neem deel aan epische turn-based gevechten",
+      "text1": "Confronteer andere Feras in spannende turn-based gevechten en gebruik de unieke vaardigheden van elk om de strijd te domineren."
+    },
+    "enjoyFeras": {
+      "title": "Geniet van de opwinding van het vangen en voeg nieuwe Feras toe aan je collectie om een onverslaanbaar team te vormen."
+    },
+    "customStrategies": {
+      "title": "Pas je strategie aan en word een legendarische trainer",
+      "text1": "Kies uit verschillende vaardigheidsbomen voor elk type Fera en creëer aangepaste strategieën.",
+      "text2": "Rust je personage uit met voorwerpen die je Feras versterken in gevechten en maak van hen oorlogsmachines."
+    },
+    "ferapedia": {
+      "title": "Trek alle Feras aan en voltooi de Ferapedia",
+      "text1": "Ga op een episch avontuur als een meester Ferapedia en voltooi dit uitgebreide encyclopedie met informatie over elke Fera-soort.",
+      "text2": "Je reis brengt je naar de meest afgelegen hoeken van de planeet, waar je deze buitengewone wezens kunt ontdekken en documenteren."
+    },
+    "universeFera": {
+      "title": "Je onmisbare gids om het Fera-universum te veroveren",
+      "subtitle1": "Documenteer elke soort",
+      "text1": "Leer over de kenmerken, vaardigheden en habitats van alle Fera-wezens.",
+      "subtitle2": "Ontdek de FeraEieren",
+      "text2": "Broed nieuwe metgezellen uit en breid je collectie uit."
+    },
+    "getReady": {
+      "title1": "Versterk je Feras met runen",
+      "text1": "Ontgrendel hun volledige potentieel en maak ze onverslaanbare krijgers.",
+      "title2": "Verken een wereld vol verrassingen, vang alle Feras en word de beste trainer.",
+      "subtitle": "Ben je klaar voor de uitdaging?",
+      "label": "Voeg je e-mail toe",
+      "placeholder": "email@email.com",
+      "signIn": "Aanmelden"
+    },
+    "footer": {
+      "termsConditions": "Algemene Voorwaarden",
+      "privacyPolicy": "Privacybeleid",
+      "cookiesPolicy": "Cookiebeleid"
+    }
+  },
+  "ru": {
+    "id": 8,
+    "nav": {
+      "item1": "Главная",
+      "item2": "Феракуб",
+      "item3": "Разведение",
+      "item4": "Профессии",
+      "item5": "Битва",
+      "item6": "Ферапедия",
+      "item7": "Мир",
+      "item8": "Язык"
+    },
+    "toast": {
+      "info1": "Спасибо за регистрацию!",
+      "info2": "Зарегистрируйтесь на Kickstarter, чтобы быть среди первых, кто узнает о запуске кампании!",
+      "error": "Внутренняя ошибка сервера",
+      "emailRegistered": "Электронная почта уже зарегистрирована",
+      "verifyCaptcha": "Пожалуйста, подтвердите, используя капчу",
+      "emailWrong": "Неверный адрес электронной почты",
+      "counter1": "Присоединяйтесь к",
+      "counter2": "людям!"
+    },
+    "header": {
+      "trailer": "Трейлер"
+    },
+    "embarkAdventure": {
+      "title": "Отправляйтесь в эпическое приключение с FeraPet!",
+      "text1": "Исследуйте безграничный открытый мир",
+      "text2": "Проходите через просторные пейзажи и открывайте скрытые секреты дикой природы."
+    },
+    "discoverVillages": {
+      "text": "Откройте живописные деревни и полезные сооружения"
+    },
+    "dominateCreatures": {
+      "title": "Покоряйте фантастических существ в FeraPet!",
+      "text1": "В FeraPet захват существ идет далеко за пределы битвы. Исследуйте мир полный возможностей, чтобы поймать эти волшебные создания и расширить свою коллекцию.",
+      "text2": "Используйте их непредвиденность, нанося Feracubo сзади или привлекая их внимание едой или музыкой.",
+      "text3": "Экспериментируйте с различными Feracubos и техниками, чтобы найти лучшую стратегию для каждого вида.",
+      "text4Pre": "Удача также играет важную роль, но",
+      "text4Bold1": "хитрость",
+      "text4Mid": " и ",
+      "text4Bold2": "планирование",
+      "text4Final": " дадут вам преимущество."
+    },
+    "raiseCreatures": {
+      "title": "Разводите и воспроизводите своих Feras для получения новых вариаций",
+      "text1": "Скрещивайте своих Feras для получения новых вариаций и расширения коллекции удивительных существ.",
+      "text2": "Создавайте подходящие условия для успешного размножения Feras и открывайте новые виды."
+    },
+    "levelUpFeras": {
+      "title": "Повышайте уровень ваших Feras с помощью специфических ресурсов, чтобы усилить их и сделать лучшими воинами в вашей команде.",
+      "tier1": "УРОВЕНЬ 1",
+      "tier2": "УРОВЕНЬ 2"
+    },
+    "farmResources": {
+      "title": "Собирайте ресурсы, создавайте предметы и экспериментируйте с различными профессиями.",
+      "text1": "Получайте ресурсы, такие как ягоды, минералы, дерево и многое другое с помощью ваших Feras и открывайте свою авантюрную сторону.",
+      "text2": "Экспериментируйте с кулинарией, алхимией, модой и кузнечным делом, чтобы создавать уникальные предметы и настраивать ваш опыт.",
+      "text3": "Отправляйтесь в бесконечное приключение, где хитрость, творчество и исследования приведут вас к успеху."
+    },
+    "participateBattles": {
+      "title": "Участвуйте в эпических пошаговых битвах",
+      "text1": "Сталкивайтесь с другими Feras в захватывающих пошаговых битвах и используйте уникальные способности каждого для доминирования в битве."
+    },
+    "enjoyFeras": {
+      "title": "Наслаждайтесь волнением от ловли и добавляйте новых Feras в вашу коллекцию, чтобы создать непобедимую команду."
+    },
+    "customStrategies": {
+      "title": "Настройте свою стратегию и станьте легендарным тренером",
+      "text1": "Выберите из различных деревьев навыков для каждого типа Fera и создайте индивидуальные стратегии.",
+      "text2": "Экипируйте вашего персонажа предметами, усиливающими ваших Feras в битве, и превратите их в военные машины."
+    },
+    "ferapedia": {
+      "title": "Привлеките всех Feras и завершите Ferapedia",
+      "text1": "Отправляйтесь в эпическое приключение в качестве мастера Ferapedia и завершите эту подробную энциклопедию с информацией о каждом виде Fera.",
+      "text2": "Ваше путешествие приведет вас в самые отдаленные уголки планеты, где вы сможете открывать и документировать эти исключительные создания."
+    },
+    "universeFera": {
+      "title": "Ваш незаменимый гид по завоеванию вселенной Fera",
+      "subtitle1": "Документируйте каждый вид",
+      "text1": "Узнайте о характеристиках, способностях и местообитаниях всех созданий Fera.",
+      "subtitle2": "Откройте яйца Fera",
+      "text2": "Высиживайте новых спутников и расширяйте свою коллекцию."
+    },
+    "getReady": {
+      "title1": "Укрепите своих Feras рунами",
+      "text1": "Разблокируйте их максимальный потенциал и сделайте их непобедимыми воинами.",
+      "title2": "Исследуйте мир, полный сюрпризов, поймайте всех Feras и станьте лучшим тренером.",
+      "subtitle": "Вы готовы к вызову?",
+      "label": "Добавьте вашу электронную почту",
+      "placeholder": "email@email.com",
+      "signIn": "Зарегистрироваться"
+    },
+    "footer": {
+      "termsConditions": "Условия использования",
+      "privacyPolicy": "Политика конфиденциальности",
+      "cookiesPolicy": "Политика использования файлов cookie"
+    }
+  },
+  "fr": {
+    "id": 9,
+    "nav": {
+      "item1": "Accueil",
+      "item2": "Feracubo",
+      "item3": "Élevage",
+      "item4": "Métiers",
+      "item5": "Combat",
+      "item6": "Ferapedia",
+      "item7": "Monde",
+      "item8": "Langue"
+    },
+    "toast": {
+      "info1": "Merci de vous être inscrit !",
+      "info2": "Inscrivez-vous maintenant sur Kickstarter pour être parmi les premiers à être informés du lancement de la campagne !",
+      "error": "Erreur interne du serveur",
+      "emailRegistered": "L'adresse e-mail est déjà enregistrée",
+      "verifyCaptcha": "Veuillez vérifier avec Captcha",
+      "emailWrong": "L'adresse e-mail est incorrecte",
+      "counter1": "Rejoignez",
+      "counter2": "personnes de plus !"
+    },
+    "header": {
+      "trailer": "Bande-annonce"
+    },
+    "embarkAdventure": {
+      "title": "Embarquez pour une aventure épique avec FeraPet !",
+      "text1": "Explorez un monde ouvert sans limites",
+      "text2": "Parcourez de vastes paysages et découvrez des secrets cachés dans la nature sauvage."
+    },
+    "discoverVillages": {
+      "text": "Découvrez des villages vibrants et des structures utiles"
+    },
+    "dominateCreatures": {
+      "title": "Dominez les créatures fantastiques de FeraPet !",
+      "text1": "Dans FeraPet, la capture des Feras va au-delà du combat. Explorez un monde plein de possibilités pour attraper ces créatures magiques et agrandir votre collection.",
+      "text2": "Profitez de leur imprévisibilité, appliquez le Feracubo dans le dos ou attirez leur attention avec de la nourriture ou de la musique.",
+      "text3": "Expérimentez avec différents Feracubos et techniques pour découvrir la meilleure stratégie pour chaque espèce.",
+      "text4Pre": "La chance joue également un rôle important, mais la",
+      "text4Bold1": "ruse",
+      "text4Mid": " et la ",
+      "text4Bold2": "planification",
+      "text4Final": "vous donneront l'avantage."
+    },
+    "raiseCreatures": {
+      "title": "Élevez et reproduisez vos Feras pour obtenir de nouvelles variations",
+      "text1": "Croisez vos Feras pour obtenir de nouvelles variations et enrichir votre collection de créatures incroyables.",
+      "text2": "Créez les conditions adéquates pour que la reproduction entre Feras soit réussie et découvrez de nouvelles espèces."
+    },
+    "levelUpFeras": {
+      "title": "Augmentez le niveau de vos Feras avec des ressources spécifiques pour renforcer leur pouvoir et en faire les meilleurs guerriers de votre équipe.",
+      "tier1": "NIVEAU 1",
+      "tier2": "NIVEAU 2"
+    },
+    "farmResources": {
+      "title": "Récoltez des ressources, créez des objets et expérimentez avec différents métiers.",
+      "text1": "Obtenez des ressources comme des baies, des minéraux, du bois et plus encore avec vos Feras et explorez votre côté aventurier.",
+      "text2": "Expérimentez avec la cuisine, l'alchimie, la couture et la forge pour créer des objets uniques et personnaliser votre expérience.",
+      "text3": "Lancez-vous dans une aventure sans limites où la ruse, la créativité et l'exploration vous mèneront au sommet du succès."
+    },
+    "participateBattles": {
+      "title": "Participez à des batailles épiques au tour par tour",
+      "text1": "Affrontez d'autres Feras dans des combats passionnants au tour par tour et utilisez les capacités uniques de chacun pour dominer la bataille."
+    },
+    "enjoyFeras": {
+      "title": "Profitez de l'excitation de la capture et ajoutez de nouveaux Feras à votre collection pour créer une équipe imbattable."
+    },
+    "customStrategies": {
+      "title": "Personnalisez votre stratégie et devenez un entraîneur légendaire",
+      "text1": "Choisissez parmi différents arbres de compétences pour chaque type de Fera et créez des stratégies personnalisées.",
+      "text2": "Équipez votre personnage d'objets qui renforcent vos Feras en combat et transformez-les en machines de guerre."
+    },
+    "ferapedia": {
+      "title": "Attirez tous les Feras et complétez la Ferapedia",
+      "text1": "Embarquez dans une aventure épique en tant que maître Ferapedia et complétez cette encyclopédie exhaustive avec des informations sur chaque espèce de Fera.",
+      "text2": "Votre voyage vous mènera dans les recoins les plus reculés de la planète, où vous pourrez découvrir et documenter ces créatures exceptionnelles."
+    },
+    "universeFera": {
+      "title": "Votre guide indispensable pour conquérir l'univers Fera",
+      "subtitle1": "Documentez chaque espèce",
+      "text1": "Apprenez sur les caractéristiques, les capacités et les habitats de toutes les créatures Fera.",
+      "subtitle2": "Découvrez les FeraHuevos",
+      "text2": "Faites éclore de nouveaux compagnons et développez votre collection."
+    },
+    "getReady": {
+      "title1": "Renforcez vos Feras avec des runes",
+      "text1": "Débloquez leur plein potentiel et faites-en des guerriers invincibles.",
+      "title2": "Explorez un monde plein de surprises, capturez tous les Feras et devenez le meilleur entraîneur.",
+      "subtitle": "Êtes-vous prêt pour le défi ?",
+      "label": "Ajoutez votre e-mail",
+      "placeholder": "email@email.com",
+      "signIn": "S'inscrire"
+    },
+    "footer": {
+      "termsConditions": "Conditions générales",
+      "privacyPolicy": "Politique de confidentialité",
+      "cookiesPolicy": "Politique relative aux cookies"
+    }
+  },
+  "zh": {
+    "id": 10,
+    "nav": {
+      "item1": "首页",
+      "item2": "Feracubo",
+      "item3": "饲养",
+      "item4": "职业",
+      "item5": "战斗",
+      "item6": "Ferapedia",
+      "item7": "世界",
+      "item8": "语言"
+    },
+    "toast": {
+      "info1": "感谢注册！",
+      "info2": "立即在Kickstarter上注册，成为第一批了解活动发布的人！",
+      "error": "内部服务器错误",
+      "emailRegistered": "电子邮件已注册",
+      "verifyCaptcha": "请进行验证码验证",
+      "emailWrong": "电子邮件格式不正确",
+      "counter1": "加入",
+      "counter2": "更多人！"
+    },
+    "header": {
+      "trailer": "预告片"
+    },
+    "embarkAdventure": {
+      "title": "与FeraPet一起踏上史诗般的冒险！",
+      "text1": "探索无边界的开放世界",
+      "text2": "穿越广阔的风景，发现大自然中隐藏的秘密。"
+    },
+    "discoverVillages": {
+      "text": "发现充满活力的村庄和有用的结构"
+    },
+    "dominateCreatures": {
+      "title": "征服FeraPet的奇幻生物！",
+      "text1": "在FeraPet中，捕捉Feras不仅限于战斗。探索一个充满可能性的世界，捕捉这些神奇的生物并扩展你的收藏。",
+      "text2": "利用它们的不可预测性，从背后应用Feracubo，或者用食物或音乐吸引它们的注意。",
+      "text3": "尝试不同的Feracubos和技术，为每种物种找到最佳策略。",
+      "text4Pre": "运气也起着重要作用，但",
+      "text4Bold1": "机智",
+      "text4Mid": " 和 ",
+      "text4Bold2": "计划",
+      "text4Final": "将给你带来优势。"
+    },
+    "raiseCreatures": {
+      "title": "饲养和繁殖你的Feras以获得新的变种",
+      "text1": "交叉你的Feras以获得新的变种，并扩展你的令人惊叹的生物收藏。",
+      "text2": "为Feras之间的繁殖创造适当的条件，并发现新的物种。"
+    },
+    "levelUpFeras": {
+      "title": "使用特定资源提升你的Feras的级别，增强它们的力量，并使它们成为你团队中最强大的战士。",
+      "tier1": "等级1",
+      "tier2": "等级2"
+    },
+    "farmResources": {
+      "title": "收集资源，制作物品并尝试不同的职业。",
+      "text1": "利用你的Feras获取如浆果，矿物和木材等资源，探索你的冒险精神。",
+      "text2": "尝试烹饪，炼金术，裁缝和铁匠技术，制作独特的物品并个性化你的体验。",
+      "text3": "踏上一场没有界限的冒险，机智，创造力和探索精神将把你带到成功的顶峰。"
+    },
+    "participateBattles": {
+      "title": "参与史诗般的回合制战斗",
+      "text1": "在激动人心的回合制战斗中面对其他Feras，并利用每个人的独特能力来掌控战斗。"
+    },
+    "enjoyFeras": {
+      "title": "享受捕捉的激情，为你的收藏添加新的Feras，打造无敌团队。"
+    },
+    "customStrategies": {
+      "title": "定制你的策略，成为传奇教练",
+      "text1": "为每种类型的Fera选择不同的技能树，并创建定制策略。",
+      "text2": "用增强你Feras战斗力的物品装备你的角色，并将它们打造成战争机器。"
+    },
+    "ferapedia": {
+      "title": "吸引所有Feras并完成Ferapedia",
+      "text1": "作为Ferapedia大师，踏上史诗般的冒险，用每个Fera种类的信息完成这部详尽的百科全书。",
+      "text2": "你的旅程将带你到地球上最偏远的角落，你将发现和记录这些非凡的生物。"
+    },
+    "universeFera": {
+      "title": "征服Fera宇宙的不可或缺的指南",
+      "subtitle1": "记录每种物种",
+      "text1": "了解每个Fera物种的特征，能力和栖息地。",
+      "subtitle2": "发现FeraHuevos",
+      "text2": "孵化新伙伴并扩展你的收藏。"
+    },
+    "getReady": {
+      "title1": "用符文强化你的Feras",
+      "text1": "解锁它们的最大潜力，使它们成为无敌的战士。",
+      "title2": "探索一个充满惊喜的世界，捕捉所有的Feras，并成为最好的教练。",
+      "subtitle": "你准备好挑战了吗？",
+      "label": "添加你的电子邮件",
+      "placeholder": "email@email.com",
+      "signIn": "注册"
+    },
+    "footer": {
+      "termsConditions": "条款和条件",
+      "privacyPolicy": "隐私政策",
+      "cookiesPolicy": "Cookie政策"
+    }
+  },
+  "it": {
+    "id": 11,
+    "nav": {
+      "item1": "Home",
+      "item2": "Feracubo",
+      "item3": "Allevamento",
+      "item4": "Professioni",
+      "item5": "Combattimento",
+      "item6": "Ferapedia",
+      "item7": "Mondo",
+      "item8": "Lingua"
+    },
+    "toast": {
+      "info1": "Grazie per esserti registrato!",
+      "info2": "Registrati ora su Kickstarter per essere tra i primi a conoscere il lancio della campagna!",
+      "error": "Errore interno del server",
+      "emailRegistered": "L'indirizzo email è già registrato",
+      "verifyCaptcha": "Verifica il captcha, per favore",
+      "emailWrong": "L'indirizzo email non è corretto",
+      "counter1": "Unisciti a",
+      "counter2": "altre persone!"
+    },
+    "header": {
+      "trailer": "Trailer"
+    },
+    "embarkAdventure": {
+      "title": "Imbarcati in un'avventura epica con FeraPet!",
+      "text1": "Esplora un mondo aperto senza limiti",
+      "text2": "Attraversa paesaggi vasti e scopri segreti nascosti nella natura selvaggia."
+    },
+    "discoverVillages": {
+      "text": "Scopri villaggi vibranti e strutture utili"
+    },
+    "dominateCreatures": {
+      "title": "Domina le creature fantastiche di FeraPet!",
+      "text1": "In FeraPet, la cattura di Feras va oltre il combattimento. Esplora un mondo pieno di possibilità per catturare queste creature magiche e ampliare la tua collezione.",
+      "text2": "Approfitta della loro imprevedibilità, usa il Feracubo alle spalle o attira la loro attenzione con cibo o musica.",
+      "text3": "Sperimenta con diversi Feracubos e tecniche per scoprire la migliore strategia per ogni specie.",
+      "text4Pre": "Anche la fortuna gioca un ruolo importante, ma l'",
+      "text4Bold1": "astuzia",
+      "text4Mid": " e la ",
+      "text4Bold2": "pianificazione",
+      "text4Final": " ti daranno il vantaggio."
+    },
+    "raiseCreatures": {
+      "title": "Alleva e riproduci le tue Feras per ottenere nuove variazioni",
+      "text1": "Incrocia le tue Feras per ottenere nuove variazioni e espandere la tua collezione di creature incredibili.",
+      "text2": "Crea le condizioni adatte per il successo della riproduzione tra Feras e scopri nuove specie."
+    },
+    "levelUpFeras": {
+      "title": "Alza di livello le tue Feras con risorse specifiche per aumentarne il potere e trasformarle nei migliori guerrieri del tuo team.",
+      "tier1": "Livello 1",
+      "tier2": "Livello 2"
+    },
+    "farmResources": {
+      "title": "Raccogli risorse, crea oggetti e sperimenta con diverse professioni.",
+      "text1": "Ottieni risorse come bacche, minerali, legno e altro ancora con le tue Feras e esplora il tuo lato avventuroso.",
+      "text2": "Sperimenta con cucina, alchimia, sartoria e ferramenta per creare oggetti unici e personalizzare la tua esperienza.",
+      "text3": "Imbarcati in un'avventura senza limiti dove l'astuzia, la creatività e l'esplorazione ti porteranno al successo."
+    },
+    "participateBattles": {
+      "title": "Partecipa a epiche battaglie a turni",
+      "text1": "Affronta altre Feras in emozionanti combattimenti a turni e usa le abilità uniche di ciascuna per dominare la battaglia."
+    },
+    "enjoyFeras": {
+      "title": "Goditi l'emozione della cattura e aggiungi nuove Feras alla tua collezione per creare un team imbattibile."
+    },
+    "customStrategies": {
+      "title": "Personalizza la tua strategia e diventa un allenatore leggendario",
+      "text1": "Scegli tra diversi alberi di abilità per ogni tipo di Fera e crea strategie personalizzate.",
+      "text2": "Equipaggia il tuo personaggio con oggetti che potenziano le tue Feras in battaglia e trasformale in macchine da guerra."
+    },
+    "ferapedia": {
+      "title": "Attrae tutte le Feras e completa la Ferapedia",
+      "text1": "Inizia un'avventura epica come maestro Ferapedia e completa questa enciclopedia esaustiva con informazioni su ogni specie di Fera.",
+      "text2": "Il tuo viaggio ti porterà nei luoghi più remoti del pianeta, dove potrai scoprire e documentare queste straordinarie creature."
+    },
+    "universeFera": {
+      "title": "La tua guida indispensabile per conquistare l'universo Fera",
+      "subtitle1": "Documenta ogni specie",
+      "text1": "Scopri le caratteristiche, le abilità e gli habitat di tutte le creature Fera.",
+      "subtitle2": "Scopri i FeraHuevos",
+      "text2": "Schiudi nuovi compagni e espandi la tua collezione."
+    },
+    "getReady": {
+      "title1": "Potenzia le tue Feras con rune",
+      "text1": "Sblocca il loro potenziale massimo e trasformale in guerrieri invincibili.",
+      "title2": "Esplora un mondo pieno di sorprese, cattura tutte le Feras e diventa il miglior allenatore.",
+      "subtitle": "Sei pronto per la sfida?",
+      "label": "Inserisci la tua email",
+      "placeholder": "email@email.com",
+      "signIn": "Registrati"
+    },
+    "footer": {
+      "termsConditions": "Termini e condizioni",
+      "privacyPolicy": "Informativa sulla privacy",
+      "cookiesPolicy": "Informativa sui cookie"
     }
   }
 }

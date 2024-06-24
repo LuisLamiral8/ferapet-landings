@@ -4,6 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 import ReCAPTCHA from "react-google-recaptcha";
 import { ToastContainer, toast } from "react-toastify";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const HomePage = ({ lang }) => {
   const [loader, setLoader] = useState(false);
@@ -12,6 +13,8 @@ const HomePage = ({ lang }) => {
   const [footerEmailInput, setFooterEmailInput] = useState("");
   const [modalKickstarter, setModalKickstarter] = useState(false);
   const [activeNav, setActiveNav] = useState(false);
+  const [activeLang, setActiveLang] = useState(false);
+  const navigate = useNavigate();
   function onChange(value) {
     console.log("Captcha value:", value);
     setCaptchaState(true);
@@ -242,10 +245,26 @@ const HomePage = ({ lang }) => {
           <li>
             <a href="#">{lang.nav.item7}</a>
           </li>
+          <li onClick={() => setActiveLang(!activeLang)}>
+            <a href="#">{lang.nav.item8}</a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+            >
+              <path d="M16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.7 15.7 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2" />
+            </svg>
+          </li>
         </ul>
         {/* <ul className={styles.mobileUl}> */}
-        <ul className={activeNav == true ? `${styles.mobileUl} ${styles.activeNav}` : `${styles.mobileUl}`}>
-
+        <ul
+          className={
+            activeNav == true
+              ? `${styles.mobileUl} ${styles.activeNav}`
+              : `${styles.mobileUl}`
+          }
+        >
           <li>
             <a href="#" onClick={() => setActiveNav(false)}>
               {lang.nav.item1}
@@ -282,7 +301,165 @@ const HomePage = ({ lang }) => {
             </a>
           </li>
         </ul>
-        <button onClick={() => setActiveNav(!activeNav)} className={styles.ham}>
+        <ul
+          className={
+            activeLang == true
+              ? `${styles.desktopLang} ${styles.activeLang}`
+              : `${styles.desktopLang}`
+          }
+        >
+          <li>
+            <a
+              href="#"
+              onClick={() => {
+                navigate("/es");
+                setActiveLang(false);
+              }}
+            >
+              Español
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onClick={() => {
+                navigate("/en");
+                setActiveLang(false);
+              }}
+            >
+              English
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onClick={() => {
+                navigate("/br");
+                setActiveLang(false);
+              }}
+            >
+              Portuguese
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onClick={() => {
+                navigate("/ko");
+                setActiveLang(false);
+              }}
+            >
+              Korean
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onClick={() => {
+                navigate("/ja");
+                setActiveLang(false);
+              }}
+            >
+              Japanese
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onClick={() => {
+                navigate("/de");
+                setActiveLang(false);
+              }}
+            >
+              German
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onClick={() => {
+                navigate("/nl");
+                setActiveLang(false);
+              }}
+            >
+              Dutch
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onClick={() => {
+                navigate("/ru");
+                setActiveLang(false);
+              }}
+            >
+              Russian
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onClick={() => {
+                navigate("/fr");
+                setActiveLang(false);
+              }}
+            >
+              French
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onClick={() => {
+                navigate("/zh");
+                setActiveLang(false);
+              }}
+            >
+              Chinese
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onClick={() => {
+                navigate("/it");
+                setActiveLang(false);
+              }}
+            >
+              Italian
+            </a>
+          </li>
+        </ul>
+        <button
+          onClick={() => {
+            setActiveLang(false);
+            setActiveNav(!activeNav);
+          }}
+          className={styles.ham}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1em"
+            height="1em"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="none"
+              stroke="#ffff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M5 17h14M5 12h14M5 7h14"
+            />
+          </svg>
+        </button>
+        <button
+          onClick={() => {
+            setActiveNav(false);
+            setActiveLang(!activeLang);
+          }}
+          className={styles.langHam}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="1em"
@@ -291,12 +468,7 @@ const HomePage = ({ lang }) => {
           >
             <path
               fill="#ffff"
-              d="M12 22c-4.714 0-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12s0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22"
-              opacity="0.5"
-            />
-            <path
-              fill="#ffff"
-              d="M18.75 8a.75.75 0 0 1-.75.75H6a.75.75 0 0 1 0-1.5h12a.75.75 0 0 1 .75.75m0 4a.75.75 0 0 1-.75.75H6a.75.75 0 0 1 0-1.5h12a.75.75 0 0 1 .75.75m0 4a.75.75 0 0 1-.75.75H6a.75.75 0 0 1 0-1.5h12a.75.75 0 0 1 .75.75"
+              d="M16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.7 15.7 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2"
             />
           </svg>
         </button>
