@@ -51,7 +51,7 @@
     "levelUpFeras": {
       "title": "Sube de nivel a tus Feras con recursos específicos para aumentar su poder y convertirlos en los mejores guerreros de tu equipo.",
       "tier1": "TIER 1",
-      "tier2": "TIER 2"
+      "tier2": "TIER 3"
     },
     "farmResources": {
       "title": "Farmea recursos, crea objetos y experimenta con diferentes profesiones.",
@@ -150,7 +150,7 @@
     "levelUpFeras": {
       "title": "Level up your Feras with specific resources to increase their power and turn them into the best warriors on your team.",
       "tier1": "TIER 1",
-      "tier2": "TIER 2"
+      "tier2": "TIER 3"
     },
     "farmResources": {
       "title": "Farm resources, create items, and experiment with different professions.",
@@ -249,7 +249,7 @@
     "levelUpFeras": {
       "title": "Nivele suas Feras com recursos específicos para aumentar seu poder e transformá-los nos melhores guerreiros de sua equipe.",
       "tier1": "NÍVEL 1",
-      "tier2": "NÍVEL 2"
+      "tier2": "NÍVEL 3"
     },
     "farmResources": {
       "title": "Cultive recursos, crie itens e experimente diferentes profissões.",
@@ -348,7 +348,7 @@
     "levelUpFeras": {
       "title": "특정 자원으로 Feras의 레벨을 올려 전투팀의 최고의 전사로 만드세요.",
       "tier1": "티어 1",
-      "tier2": "티어 2"
+      "tier2": "티어 3"
     },
     "farmResources": {
       "title": "자원을 농사 짓고, 아이템을 만들고, 다양한 직업을 실험하세요.",
@@ -447,7 +447,7 @@
     "levelUpFeras": {
       "title": "特定の資源でFerasのレベルを上げ、チームの最高の戦士にしよう。",
       "tier1": "ティア 1",
-      "tier2": "ティア 2"
+      "tier2": "ティア 3"
     },
     "farmResources": {
       "title": "資源を収集し、アイテムを作成し、さまざまな職業を試そう。",
@@ -546,7 +546,7 @@
     "levelUpFeras": {
       "title": "Steigere das Level deiner Feras mit spezifischen Ressourcen, um ihre Kraft zu erhöhen und sie zu den besten Kriegern deines Teams zu machen.",
       "tier1": "STUFE 1",
-      "tier2": "STUFE 2"
+      "tier2": "STUFE 3"
     },
     "farmResources": {
       "title": "Baue Ressourcen ab, stelle Gegenstände her und experimentiere mit verschiedenen Berufen.",
@@ -645,7 +645,7 @@
     "levelUpFeras": {
       "title": "Verhoog het niveau van je Feras met specifieke bronnen om hun kracht te vergroten en ze de beste strijders van je team te maken.",
       "tier1": "NIVEAU 1",
-      "tier2": "NIVEAU 2"
+      "tier2": "NIVEAU 3"
     },
     "farmResources": {
       "title": "Verzamel hulpbronnen, maak voorwerpen en experimenteer met verschillende beroepen.",
@@ -744,7 +744,7 @@
     "levelUpFeras": {
       "title": "Повышайте уровень ваших Feras с помощью специфических ресурсов, чтобы усилить их и сделать лучшими воинами в вашей команде.",
       "tier1": "УРОВЕНЬ 1",
-      "tier2": "УРОВЕНЬ 2"
+      "tier2": "УРОВЕНЬ 3"
     },
     "farmResources": {
       "title": "Собирайте ресурсы, создавайте предметы и экспериментируйте с различными профессиями.",
@@ -843,7 +843,7 @@
     "levelUpFeras": {
       "title": "Augmentez le niveau de vos Feras avec des ressources spécifiques pour renforcer leur pouvoir et en faire les meilleurs guerriers de votre équipe.",
       "tier1": "NIVEAU 1",
-      "tier2": "NIVEAU 2"
+      "tier2": "NIVEAU 3"
     },
     "farmResources": {
       "title": "Récoltez des ressources, créez des objets et expérimentez avec différents métiers.",
@@ -942,7 +942,7 @@
     "levelUpFeras": {
       "title": "使用特定资源提升你的Feras的级别，增强它们的力量，并使它们成为你团队中最强大的战士。",
       "tier1": "等级1",
-      "tier2": "等级2"
+      "tier2": "等级3"
     },
     "farmResources": {
       "title": "收集资源，制作物品并尝试不同的职业。",
@@ -1041,7 +1041,7 @@
     "levelUpFeras": {
       "title": "Alza di livello le tue Feras con risorse specifiche per aumentarne il potere e trasformarle nei migliori guerrieri del tuo team.",
       "tier1": "Livello 1",
-      "tier2": "Livello 2"
+      "tier2": "Livello 3"
     },
     "farmResources": {
       "title": "Raccogli risorse, crea oggetti e sperimenta con diverse professioni.",
