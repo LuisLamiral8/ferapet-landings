@@ -760,11 +760,11 @@ const HomePage = ({ lang }) => {
           src="/homePage/customStrategies/downFeras2.webp"
           alt=""
         />
-        <img
+        {/* <img
           className={styles.customStrategiasTrophy}
           src="/homePage/customStrategies/trophy.webp"
           alt=""
-        />
+        /> */}
         <img
           className={styles.customStrategiasMobileFera1}
           src="/homePage/customStrategies/mobileFera1.png"

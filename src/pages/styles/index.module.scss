@@ -1662,6 +1662,7 @@
 @media (max-width: 450px) {
   .container {
     .header {
+      overflow: hidden;
       display: flex;
       .headerLogo {
         width: 310px;
@@ -1680,12 +1681,16 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 70%;
+        width: 100%;
         .feraRed {
-          width: 300px;
+          // width: 300px;
+          width: 110%;
         }
         input {
-          width: 90%;
+          width: 60%;
+        }
+        button{
+          width: 60%;
         }
         // .headerCaptcha {
         //   display: none;

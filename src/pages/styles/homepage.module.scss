@@ -1707,7 +1707,7 @@
       background-size: initial;
       .customStrategiasFera1 {
         // background: red;
-        top: 120vw;
+        top: 108vw;
         width: 35vw;
       }
       .customStrategiasFera2 {
@@ -1724,23 +1724,19 @@
       .customStrategiasMobileFera1 {
         display: initial;
         position: absolute;
-        bottom: 90vw;
+        bottom: 40vw;
         width: 75vw;
         left: -15vw;
       }
       .customStrategiasMobileFera2 {
         display: initial;
         position: absolute;
-        bottom: 90vw;
+        bottom: 40vw;
         width: 50vw;
         right: -8vw;
       }
       h3 {
         font-size: 8vw;
-      }
-      .customStrategiasTrophy {
-        width: 30vw;
-        z-index: 5;
       }
       .customStrategiesContainer1 {
         width: 90%;
@@ -1754,9 +1750,9 @@
         }
       }
       .customStrategiesFloat {
-        margin-top: 98vw;
+        margin-top: 100vw;
 
-        margin-bottom: 48vw;
+        margin-bottom: 2vw;
         padding-bottom: 7vw;
         width: 90%;
         p {
@@ -1945,11 +1941,13 @@
         top: 400px;
         width: 30vw;
         left: -20px;
+        z-index: 5;
       }
       .dominateCreaturesFera2 {
         top: 380px;
         width: 35vw;
         right: -70px;
+        z-index: 5;
       }
       .dominateCreaturesCube {
         margin: 100px 0 0 0;
