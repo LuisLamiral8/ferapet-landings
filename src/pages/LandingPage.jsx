@@ -354,12 +354,12 @@ const LandingPage = ({ lang }) => {
         />
         <img loading="lazy"
           className={styles.section4Image}
-          src="/landingPage/section4/image.png"
+          src="/landingPage/section4/image.webp"
           alt=""
         />
         <img loading="lazy"
           className={styles.section4MobileImage}
-          src="/landingPage/section4/mobileImage.png"
+          src="/landingPage/section4/mobileImage.webp"
           alt=""
         />
       </section>
