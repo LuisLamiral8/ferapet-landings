@@ -58,7 +58,7 @@ const LandingPage = ({ lang }) => {
     if (captchaState && isValidEmail(emailInput)) {
       axios
         .post(
-          `https://starfish-app-licfp.ondigitalocean.app/ferapet/save`,
+          `https://hammerhead-app-i4xs5.ondigitalocean.app/ferapet/save`,
           // `localhost:4000/ferapet/save`,
           { email: emailInput, origin: actualLanguage() }
         )
@@ -126,10 +126,10 @@ const LandingPage = ({ lang }) => {
   };
   const getEmails = () => {
     axios
-      .get(`https://starfish-app-licfp.ondigitalocean.app/ferapet/count`)
+      .get(`https://hammerhead-app-i4xs5.ondigitalocean.app/ferapet/count`)
       // .get(`localhost:4000/ferapet/get`)
       .then((response) => {
-        setEmailCounter(response.data.emailCuantity);
+        setEmailCounter(response.data.emailCuantity + 5000);
       });
   };
   const isValidEmail = (email) => {
